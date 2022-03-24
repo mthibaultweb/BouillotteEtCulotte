@@ -1,0 +1,18 @@
+.heading-title span {
+    position: relative;
+    display: table-cell;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.heading-title span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -3px;
+    right: -3px;
+    height: 20px;
+    background-color: #FFC700;
+    opacity: 0.7;
+    z-index: -1;
+}
