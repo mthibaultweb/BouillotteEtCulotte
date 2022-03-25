@@ -1,6 +1,29 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,700&display=swap');
+
+body, p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    line-height: 1.1;
+}
+
+h1, .h1 {
+    font-size: 1.75rem;
+}
+
+h2, .h2 {
+    font-size: 1.5rem;
+}
+
 /* Colors */
 
 $primaire: #e72787;
+$secondaire: #B60BD2;
 $noir: #17010C;
 $blanc: #fdfdfd;
 $violet: #a81d62;
@@ -18,4 +41,25 @@ $violet: #a81d62;
 
 .mt-72 {
     margin-top: 4.5rem;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 14px 43px;
+    border-radius: 30px;
+}
+
+.btn-sm {
+    padding: 6px 27px;
+}
+
+.btn-primary {
+    background-color: $primaire;
+    border-color: $primaire;
+}
+
+.btn-secondary {
+    background-color: $secondaire;
+    border-color: $secondaire;
 }
