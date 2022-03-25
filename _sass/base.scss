@@ -1,0 +1,21 @@
+/* Colors */
+
+$primaire: #e72787;
+$noir: #17010C;
+$blanc: #fdfdfd;
+$violet: #a81d62;
+
+/* Backgrounds */
+
+.bg-violet {
+    background-color: $violet;
+}
+.bg-blanc {
+    background-color:  $blanc;
+}
+
+/* Utilities */
+
+.mt-72 {
+    margin-top: 4.5rem;
+}

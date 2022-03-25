@@ -1,10 +1,10 @@
 - name: Accueil
   link: /
-- name: Que m'arrive-t-il
+- name: Que m'arrive-t-il ?
   link: /que-m-arrive-t-il/
 - name: En parler
   link: /en-parler/
 - name: Kit de survie
   link: /kit-de-survie/
-- name: Comment soutenir
+- name: Comment soutenir ?
   link: /comment-soutenir/
