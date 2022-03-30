@@ -1,0 +1,16 @@
+<section class="section testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                {% for item in site.data.testimonials-endogirls %}
+                <div class="testimonial mb-5">
+                    <div class="testimonial-card">
+                        <p>{{ item.testimony }}</p>
+                    </div>
+                    <p><b>{{ item.name }}, {{ item.age }},</b> {{ item.status }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

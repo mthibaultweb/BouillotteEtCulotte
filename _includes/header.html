@@ -14,7 +14,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    {% for item in site.data.navigation %}
+                    {% for item in site.data.header-menu %}
                     <li class="nav-item">
                         <a class="nav-link {% if page.url == item.link %}active{% endif %}" {% if page.url == item.link %}aria-current="page"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
                     </li>
