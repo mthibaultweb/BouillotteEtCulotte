@@ -66,5 +66,6 @@ title: Bouillotte & Culotte
             <p class="lead">En effet, l’endométriose touche 1 femme sur 10. Il y de nombreuses formes d’endométriose et ne t’en fais pas elles ne sont pas toute grave. Nous avons réunnis de nombreux temoignages de différents parcours pour que tu comprennes que chaque parcours est unique.</p>
         </div>
     </div>
+    {% include accordion.html %}
     {% include testimonials-endogirls.html %}
 </article>
