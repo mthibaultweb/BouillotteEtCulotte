@@ -1,0 +1,52 @@
+- name: Règles douloureuses
+  n: One
+  nbr_content: 6
+  content1: "- Douleurs qui reviennent à chaque fois que tu as tes règles"
+  content2: "- Douleurs qui apparaissent avant et/ou pendant tes règles"
+  content3: "- Douleurs qui ne disparaissent pas avec un médicament classique"
+  content4: "- Douleurs qui t’empêchent de faire tes activités quotidiennes (aller en cours, concentration, exercice physique, etc)"
+  content5: "- Douleurs qui se ressentent comme des brûlures ou des décharges électriques et qui se situent dans le bas du ventre et qui peuvent s’étendre dans le dos et les jambes"
+  content6: "- Douleurs au niveau des ovaires, des lombaires (ces symptômes peuvent être signe d’une aggravation de la maladie)"
+
+- name: Saignements abondants
+  n: Two
+  nbr_content: 3
+  content1: "- Les saignements abondants peuvent être accompagnés de caillots de sang"
+  content2: "- Les règles durent plus de 7 jours"
+  content3: "- Pertes très abondantes (tu changes de protection hygiénique toutes les heures)"
+
+- name: Saignements en dehors de la période de règles
+  n: Three
+  nbr_content: 2
+  content1: "- Petites pertes de sang"
+  content2: "- Métrorragie : saignements très abondants est quasi permanent"
+
+- name: Troubles digestifs
+  n: Four
+  nbr_content: 4
+  content1: "- Alternance de diarrhée et/ou de constipation, amplifiée pendant la période des règles"
+  content2: "- Douleurs durant la défécation (la 'grosse commission')"
+  content3: "- Problème d’occlusion (constipation, gaz)"
+  content4: "- Des saignements peuvent être constatés au niveau de l’anus, surtout pendant la période des règles."
+
+- name: Troubles urinaires
+  n: Five
+  nbr_content: 4
+  content1: "- Douleurs pelviennes et urinaires."
+  content2: "- Douleurs lorsque la vessie se vide."
+  content3: "- Envie fréquente d’uriner."
+  content4: "- Ces symptômes peuvent être également liés à une infection urinaire."
+
+- name: Douleurs durant un rapport sexuel
+  n: Six
+  nbr_content: 3
+  content1: "- Il se peut que des douleurs apparaissent pendant et après les rapports."
+  content2: "- Douleurs constantes pendant tout le rapport ou seulement dans certaines positions."
+  content3: "- Ces douleurs apparaissent plus fréquemment lors d’une pénétration trop profonde."
+
+- name: Infertilité
+  n: Seven
+  nbr_content: 1
+  content1: "L’infertilité est un des symptômes de l’endométriose mais elle n’est
+   pas définitive et ne concerne pas toutes les femmes atteintes de la maladie. Cette catégorie évoque une possible 
+   difficulté de faire un enfant."

@@ -1,4 +1,57 @@
-.accordion-header, .accordion-button{
-    background-color: $primaire;
-    $accordion-button-active-color: $primaire;
+
+.accordion{
+    margin: 100px 0;
 }
+
+.accordion-button{
+    background-color: $primaire;
+    color: $blanc;
+    border-radius: 15px;
+    &:focus{
+        border: none;
+        box-shadow: none;
+    }
+    &:not(.collapsed){
+        background-color: $primaire;
+        color:$blanc;
+        &::after{
+            content:"";
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-left: auto;
+            background-image: url('/assets/images/+.svg');
+            background-repeat: no-repeat;
+            background-size: 1.5rem;
+        }
+    }
+    &::after{
+        content:"";
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: auto;
+        background-image: url('/assets/images/+.svg');
+        background-repeat: no-repeat;
+        background-size: 1.5rem;
+        // transition: transform .2s ease-in-out;
+    }
+}
+
+.accordion-item{
+    border : none;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.accordion-collapse{
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+
