@@ -2,10 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
-                {% for item in site.data.testimonials-endogirls %}
+                {% for item in site.data.testimonials-endogirls limit:3 %}
                 <div class="testimonial mb-5">
                     <div class="testimonial-card">
+                        <img class="guillemets-haut" src="/assets/images/guillemetsHaut.svg" alt="guillemets">
                         <p>{{ item.testimony }}</p>
+                        <img class="guillemets-bas" src="/assets/images/guillemetsBas.svg" alt="guillemets">
                     </div>
                     <p><b>{{ item.name }}, {{ item.age }},</b> {{ item.status }}</p>
                 </div>
