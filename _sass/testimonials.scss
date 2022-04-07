@@ -5,4 +5,17 @@
     width: 100%;
     padding: 24px 28px 8px;
     margin-bottom: 16px;
+    position: relative;
+
+    .guillemets-bas{
+        position: absolute;
+        right: 0px;
+        bottom: -18px;
+    }
+
+    .guillemets-haut{
+        position: absolute;
+        left: 0px;
+        top: -18px;
+    }
 }
