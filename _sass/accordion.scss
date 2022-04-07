@@ -36,6 +36,15 @@
     }
 }
 
+.accordion-item:last-of-type .accordion-button.collapsed{
+    border-radius: 15px;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 15px;
+
+}
+
 .accordion-item{
     border : none;
     margin-bottom: 15px;
