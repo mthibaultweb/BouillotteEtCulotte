@@ -1,0 +1,22 @@
+<section class="section recos-medecins">
+    <div class="">
+            <div>
+                {% for item in site.data.recos-medecins %}
+                    
+                    <div class="recos-card">
+                        <p>{{ item.name }}</p>
+
+                        <div class="contenu-recos">
+                            {{ item.img }}
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </div>
+
+                    <h2>Dans un premier temps</h2>
+                    <h2>Puis les examens</h2>
+                    <h2>Et la médecine</h2>
+
+                {% endfor %}
+            </div>
+    </div>
+</section>

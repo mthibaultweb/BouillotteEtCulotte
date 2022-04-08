@@ -9,6 +9,17 @@ permalink: /temoignages/
 
 {% include testimonials-endogirls.html %}
 
+<div class="nav-temoignages"> 
+    <button class="btn-endogirls" id="btn-endo" onclick>
+
+    </button>
+
+    <button class="btn-proches" id="btn-proches">
+        <a href=""> </a>
+    </button>
+</div>
+
+
 
 
 
