@@ -1,0 +1,22 @@
+.recos-card {
+    background-color: $blanc;
+    width: 100%;
+    margin: 3px;
+
+    .contenu-recos{
+        display: flex;
+        width: fit-content;
+        padding-bottom: 25px;
+        margin-bottom: 9px;
+        
+        img{
+            width: 50%;
+            object-fit: cover;
+        }
+
+        p{
+            padding-left: 37px;  
+        }
+    }
+    
+}

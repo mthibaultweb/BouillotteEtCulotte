@@ -1,10 +1,10 @@
 - name: 'Emma'
   age: '20 ans'
   status: 'en cours de diagnostic'
-  testimony: 'Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.'
+  testimony: >
+    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat. -
+    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
+
 - name: 'Louise'
   age: '26 ans'
   status: 'Diagnostiquée'

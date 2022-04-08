@@ -1,0 +1,29 @@
+- title: 'Dans un premier temps'
+- name: 'Médecin Généraliste'
+  img: <img src="/assets/images/que-m-arrive-t-il.jpg">
+  description: >
+    Tu as peut-être déjà un généraliste que tu connais.
+    Il est à même de t’orienter vers un diagnostic et te prescrire des médicaments ou des examens.
+- name: 'Gynécologue'
+  img: <img src="/assets/images/kit-de-survie.jpg">
+  description: "C’est un spécialiste de ton appareil génital. Il sera direct plus informé sur tes problèmes de règles  et pour des examens et des solutions plus précises."
+- name: 'Infirmière scolaire'
+  img: '<img src="/assets/images/que-m-arrive-t-il.jpg">'
+  description: "Elle n’est pas en mesure de te diagnostiquer, mais est de bon conseil pour t’orienter vers les personnes qualifiées."
+
+
+- name: 'Les échographies'
+  img: '<img src="/assets/images/kit-de-survie.jpg">'
+  description: "Examen radiologique, utilisant les ultrasons, pour voir à l’intérieur des organes."
+- name: 'Les IRM'
+  img: '<img src="/assets/images/que-m-arrive-t-il.jpg">'
+  description: "Observation en vue 2D et 3D qui sert à détailler les résultats de l’échographie. Il permet de détecter des anomalies plus profondes."
+- name: 'Kiné & Osthéo'
+  img: '<img src="/assets/images/kit-de-survie.jpg">'
+  description: 'Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour soulager les douleurs.'
+- name: 'Le Yoga'
+  img: '<img src="/assets/images/que-m-arrive-t-il.jpg">'
+  description: 'Super moyen pour se détendre, gérer son souffle et appaiser sa douleur. La pratique régulière peut permettre de reprendre le contrôle de son corps.'
+- name: "...et plein d'autres"
+  img: '<img src="/assets/images/kit-de-survie.jpg">'
+  description: "Et on t’as pas tout dit : il y a la sophrologie, l’acuponcture, la psychothérapie, les cures thermales... et même l’hypnose !"
