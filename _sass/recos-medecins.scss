@@ -3,6 +3,11 @@
     width: 100%;
     margin: 3px;
 
+    .titre-reco{
+    display: flex;
+    justify-content: center;
+    }
+
     .contenu-recos{
         display: flex;
         width: fit-content;
@@ -10,12 +15,18 @@
         margin-bottom: 9px;
         
         img{
-            width: 50%;
+            width: 100%;
             object-fit: cover;
         }
 
         p{
-            padding-left: 37px;  
+            padding-left: 37px;
+            font-weight: 300;
+            font-size: 14px;
+
+            @media screen and (min-width: 500px){
+                font-size: 20px;
+            }
         }
     }
     

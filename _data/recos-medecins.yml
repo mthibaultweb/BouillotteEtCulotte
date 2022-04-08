@@ -1,5 +1,6 @@
-- title: 'Dans un premier temps'
-- name: 'Médecin Généraliste'
+- title: 'Dans un '
+  title-span: 'premier temps'
+  name: 'Médecin Généraliste'
   img: <img src="/assets/images/que-m-arrive-t-il.jpg">
   description: >
     Tu as peut-être déjà un généraliste que tu connais.
@@ -11,14 +12,18 @@
   img: '<img src="/assets/images/que-m-arrive-t-il.jpg">'
   description: "Elle n’est pas en mesure de te diagnostiquer, mais est de bon conseil pour t’orienter vers les personnes qualifiées."
 
-
-- name: 'Les échographies'
+- title: 'Puis '
+  title-span: 'les examens'
+  name: 'Les échographies'
   img: '<img src="/assets/images/kit-de-survie.jpg">'
   description: "Examen radiologique, utilisant les ultrasons, pour voir à l’intérieur des organes."
 - name: 'Les IRM'
   img: '<img src="/assets/images/que-m-arrive-t-il.jpg">'
   description: "Observation en vue 2D et 3D qui sert à détailler les résultats de l’échographie. Il permet de détecter des anomalies plus profondes."
-- name: 'Kiné & Osthéo'
+
+- title: 'Et la '
+  title-span: 'médecine douce'
+  name: 'Kiné & Osthéo'
   img: '<img src="/assets/images/kit-de-survie.jpg">'
   description: 'Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour soulager les douleurs.'
 - name: 'Le Yoga'
