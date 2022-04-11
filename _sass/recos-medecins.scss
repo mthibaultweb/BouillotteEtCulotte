@@ -5,12 +5,9 @@
     .recos-card {
         background-color: $blanc;
         width: 100%;
-
         h2{
-            margin-top: 50px;
-            &:empty{
-                display: none;
-            }
+            margin-top: 25px;
+            margin-bottom: 31px;
         }
         
         .titre-reco{
