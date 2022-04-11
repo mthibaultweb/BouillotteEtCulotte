@@ -1,7 +1,7 @@
 ---
 title: Ils peuvent m'aider
 layout: default
-permalink: /ils-peuvent-maider/
+permalink: /ils-peuvent-m-aider/
 ---
 
 <h1>{{ page.title }}</h1>
