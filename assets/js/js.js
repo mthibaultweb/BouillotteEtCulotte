@@ -1,8 +1,7 @@
 let header = document.querySelector('.navbar');
 let navbarBrand = document.querySelector('.navbar-brand');
-let homepage = document.querySelector('body.homepage');
+let body = document.querySelector('body');
 
-if (homepage)
 
 function logo() {
     if (window.scrollY == 0) {
@@ -14,10 +13,11 @@ function logo() {
 }
 
 window.addEventListener('scroll', function() {
-    let windowPosition = window.scrollY > 0;
-    if (homepage) {
-        navbarBrand.classList.toggle('solid');
+    if (window.scrollY > 0) {
+        body.classList.add('scroll-active');
+        console.log("active");
+    } else {
+        body.classList.remove('scroll-active');
+        console.log("not");
     }
-    header.classList.toggle('scrolling-active', windowPosition);
-    navbarBrand.classList.toggle('solid', windowPosition);
 })
