@@ -1,5 +1,6 @@
 ---
 title: Un kit de survie pour l'endométriose
+subtitle: Combattre les douleurs !
 layout: default
 permalink: /kit-de-survie/
 ---

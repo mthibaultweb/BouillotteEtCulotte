@@ -13,7 +13,7 @@ title: Bouillotte & Culotte
     </div>
 </div>
 
-<article>
+<div>
     <h1 class="heading-title text-center mb-4">T'en as marre de <br/><span>te tordre de douleur ?</span></h1>
     <p class="subheading-title text-center mb-5">Et si on parlait d'endométriose ?</p>
     <div class="d-flex justify-content-center mb-5">
@@ -68,4 +68,4 @@ title: Bouillotte & Culotte
     </div>
     {% include accordion.html %}
     {% include testimonials-endogirls.html %}
-</article>
+</div>
