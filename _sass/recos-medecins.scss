@@ -3,9 +3,13 @@
     width: 100%;
     margin: 3px;
 
+    h2{
+        margin-top: 25px;
+    }
+    
     .titre-reco{
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .contenu-recos{
