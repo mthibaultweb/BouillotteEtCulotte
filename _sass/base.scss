@@ -7,10 +7,12 @@
 
 $primaire: #E8107C;
 $secondaire: #B60BD2;
+$rose-clair: #F679B8;
 $noir: #17010C;
 $blanc: #fdfdfd;
 $violet: #a81d62;
 $jaune: #ffd84d;
+
 
 /* Backgrounds */
 
@@ -20,7 +22,10 @@ $jaune: #ffd84d;
 .bg-blanc {
     background-color:  $blanc;
 }
-
+.bg-rose {
+    background-color:  $rose-clair;
+    width: 80%;
+}
 
 
 
@@ -70,6 +75,7 @@ h3, .h3{
         font-size: 18px;
     }
 }
+
 
 
 /* Utilities */
