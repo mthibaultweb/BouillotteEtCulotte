@@ -13,13 +13,11 @@
 
 <body id="body" class="bg-blanc {% if page.url == '/' %}homepage{% endif %}">
     {% include header.html %}
+    {% if page.url != '/' %}
+    {% include banner.html %}
+    {% endif %}
     <main id="main" >
         <article>
-            <header>
-                {% if page.url != '/' %}
-                {% include banner.html %}
-                {% endif %}
-            </header>
             <div class="container">
                 {{ content }}
             </div>
