@@ -1,5 +1,13 @@
 section{
-    font-weight: 300;
+
+    p{
+        font-weight: 300;
+        font-size: 14px;
+
+        @media screen and (min-width: 500px){
+            font-size: 20px;
+        }
+    }
 
     .row{
         margin-bottom: 50px;
@@ -12,6 +20,11 @@ section{
             h2{
                 margin-top: 25px;
                 margin-bottom: 31px;
+
+                @media screen and (min-width: 500px){
+                    margin-top: 70px;
+                    margin-bottom: 45px;
+                }
             }
             
             .titre-reco{
@@ -34,12 +47,6 @@ section{
     
                 p{
                     padding-left: 37px;
-                    font-weight: 300;
-                    font-size: 14px;
-    
-                    @media screen and (min-width: 500px){
-                        font-size: 20px;
-                    }
                 }
             }
             
