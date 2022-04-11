@@ -1,0 +1,34 @@
+- name: Les serviettes hygiéniques
+  n: One
+  nbr_content: 3
+  content1: "- Il existe plusieurs types de serviettes hygiéniques : des longues, des courtes, pour flux moyen ou grand flux, pour la nuit, pour le jour."
+  content2: "- Il existe des serviettes jetables et des lavables que tu pourras réutiliser plusieurs fois."
+  content3: "- C’est à toi d’essayer et de trouver quelles sont la forme et la taille qui te correspondent le plus."
+
+- name: Les tampons
+  n: Two
+  nbr_content: 3
+  content1: "- Les tampons peuvent être effrayants, tu ne dois pas te forcer à en mettre si tu n’en ont pas envie."
+  content2: "- Le tampon fait partie des protections internes car il doit se placer à l’intérieur du vagin."
+  content3: "- Il faut le changer toutes les 2 à 4 heures en fonction de ton flux."
+
+- name: Les cups menstruelles
+  n: Three
+  nbr_content: 3
+  content1: "- Les cups comme les tampons sont des protections à insérer dans le vagin"
+  content2: "- Les cups menstruelles sont des petits “pots” (voir photo) qui va récupérer ton sang tout au long de la journée"
+  content3: "- Il faut la vider toute les 4h pour ne pas risquer d’infections"
+
+- name: Les culottes de règles
+  n: Four
+  nbr_content: 4
+  content1: "- Le concept c’est d’avoir une culotte qui contient une protection hygiénique à l’intérieur."
+  content2: "- L’avantage c’est que tu n’a qu’à l’enfiler et tu es prête pour la journée."
+  content3: "- Il existe différent types de culottes de règles (taille, forme…) pour différents flux."
+  content4: "- Une fois portée toute la journée, tu dois la rincer et la nettoyer. "
+
+- name: Les protèges slips
+  n: Five
+  nbr_content: 2
+  content1: "- Ne convient pas aux flux des règles car il est trop petit, sauf si tu as des règles avec très très peu de saignement."
+  content2: "- Il est souvent utilisé pour le spotting, quand tu as de petites pertes entre tes règles."
