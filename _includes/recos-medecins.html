@@ -1,13 +1,18 @@
 <section class="section recos-medecins">
+
+    <p class="font-weight-300">Oui, les menstruations ça peut faire mal mais si ces douleurs sont trop fortes ou trop fréquentes, consulter un professionnel de santé et/ou médecin est primordial (de même pour tous tes problèmes de santé). Pour ce qui concerne les problèmes dus à ton cycle menstruel ou si tu penses avoir de l’endométriose, nous t’avons préparé une liste non exaustive de professionnels que tu peux aller voir.</p>
+
     <div class="row">
+        
             {% for item in site.data.recos-medecins %}
+
                 
                 <div class="recos-card col-lg-8">
-                    <h2>{{ item.title }}<span>{{ item.title-span }}</span></h2>
+                    {% if item.title %}<h2>{{ item.title }}<span>{{ item.title-span }}</span></h2>{% endif %}
                     <h3 class="col-6 col-lg-4 titre-reco">{{ item.name }}</h3>
 
                     <div class="contenu-recos">
-                        <div class="col-6 col-lg-4">
+                        <div class="col-6 col-lg-4 img">
                             {{ item.img }} 
                         </div>
                         <p class="col align-self-center col-6">{{ item.description }}</p>
