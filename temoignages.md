@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Témoignages
+subtitle: Un parcours unique pour chacune
 permalink: /temoignages/
 ---
 

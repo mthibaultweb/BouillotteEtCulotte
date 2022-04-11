@@ -1,11 +1,10 @@
 ---
 title: Ils peuvent m'aider
+subtitle: Être écoutée ça fait du bien
 layout: default
-permalink: /ils-peuvent-maider/
+permalink: /ils-peuvent-m-aider/
+bgimg: commentjenparle_tel.jpg
 ---
-
-<h1>{{ page.title }}</h1>
-
 
 <h2>Allo <span>docteur !</span></h2>
 
