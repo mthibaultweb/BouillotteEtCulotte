@@ -3,7 +3,7 @@
             {% for item in site.data.recos-medecins %}
                 
                 <div class="recos-card col-lg-8">
-                    <h2>{{ item.title }}<span>{{ item.title-span }}</span></h2>
+                    {% if item.title %}<h2>{{ item.title }}<span>{{ item.title-span }}</span></h2>{% endif %}
                     <h3 class="col-6 col-lg-4 titre-reco">{{ item.name }}</h3>
 
                     <div class="contenu-recos">
