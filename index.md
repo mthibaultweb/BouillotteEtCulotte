@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: homepage
 title: Bouillotte & Culotte
 ---
-<div class="row d-flex justify-content-center">
+<!-- <div class="row d-flex justify-content-center">
     <div class="col-4 col-lg-2 mt-5">
         <img src="{{ "/assets/images/logo-bouillotteetculotte.png" | relative_url }}" alt="Bouillotte et Culotte" width="100%" />
     </div>
-</div>
+</div> -->
 <div class="row d-flex justify-content-center">
     <div class="col-12 col-lg-4 my-4">
-        <img src="{{ "/assets/images/banniere-accueil.jpg" | relative_url }}" alt="" width="100%" />
+        <img src="{{ "/assets/images/douleurs_homepage.jpg" | relative_url }}" alt="" width="100%" />
     </div>
 </div>
 
@@ -24,7 +24,7 @@ title: Bouillotte & Culotte
     <div class="row">
         <div class="col-12 col-lg-6">
             <div class="card card-summary border-0">
-                <img class="card-img" src="{{ "/assets/images/que-m-arrive-t-il.jpg" | relative_url }}" alt="">
+                <img class="card-img" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
                 <div class="card-body">
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Que m'arrive-t-il ?</a>
                     <p class="card-text">Tu te poses des questions sur tes règles ? Tu as des symptômes que tu trouves anormaux et tu veux savoir pourquoi ? Lorsque tu parles de tes règles à ton entourage, tu ne te retrouves pas dans leurs expériences ? On peut peut-être répondre à tes questions…</p>
@@ -33,7 +33,7 @@ title: Bouillotte & Culotte
         </div>
         <div class="col-12 col-lg-6">
             <div class="card card-summary border-0">
-                <img class="card-img" src="{{ "/assets/images/en-parler.jpg" | relative_url }}" alt="">
+                <img class="card-img" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="">
                 <div class="card-body">
                     <a href="/en-parler/" class="btn btn-primary btn-sm">En parler</a>
                     <p class="card-text">Tu n’oses pas en parler à tes proches ? Tu as peur d’être jugée ? Tu ne te sens pas comprise ? Tu ne sais pas encore comment aborder le sujet ? On peut t’apporter quelques conseils pour libérer ta parole.</p>
@@ -42,7 +42,7 @@ title: Bouillotte & Culotte
         </div>
         <div class="col-12 col-lg-6">
             <div class="card card-summary border-0">
-                <img class="card-img" src="{{ "/assets/images/kit-de-survie.jpg" | relative_url }}" alt="">
+                <img class="card-img" src="{{ "/assets/images/protections_hygieniques_homepage.png" | relative_url }}" alt="">
                 <div class="card-body">
                     <a href="/kit-de-survie/" class="btn btn-primary btn-sm">kit-de-survie</a>
                     <p class="card-text">Tu ne sais pas à qui t’adresser ? Tu ne sais pas si ta famille pourra t’aider ? Tu ne sais pas si des professionnels de santé peuvent t’aider ? On peut t’aider à chercher des personnes pour t’aider.</p>
@@ -51,7 +51,7 @@ title: Bouillotte & Culotte
         </div>
         <div class="col-12 col-lg-6">
             <div class="card card-summary border-0">
-                <img class="card-img" src="{{ "/assets/images/comment-soutenir.jpg" | relative_url }}" alt="">
+                <img class="card-img" src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="">
                 <div class="card-body">
                     <a href="/comment-soutenir/" class="btn btn-secondary btn-sm">Comment soutenir ?</a>
                     <p class="card-text">Une de tes proches est atteinte d’endométriose ? Tu as des suspicions concernant la santé d’une de tes proches ? Tu te questionnes sur ton rôle dans cette situation ? On peut t’aider à aborder le sujet.</p>
