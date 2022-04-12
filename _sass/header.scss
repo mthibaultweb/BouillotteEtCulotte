@@ -45,3 +45,62 @@ body.homepage.scroll-active .navbar-brand {
 .navbar-light .navbar-toggler {
     border: none;
 }
+
+.nav-item:hover .dropdown-content{
+    display: block;
+}
+
+@media screen and (min-width: 500px){
+    .dropbtn {
+        color: $blanc;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+      
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown-all {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: $blanc;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    
+        .dropdown-item.active, .dropdown-item:active {
+            background-color: $blanc;
+            color: #0000009f;
+            font-weight: bold;
+
+            &:hover{
+                color: $noir;
+            }
+        }
+
+
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: #0000009f;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: $blanc;
+        color: $noir;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+}

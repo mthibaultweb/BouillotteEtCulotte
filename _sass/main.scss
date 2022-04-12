@@ -58,3 +58,46 @@ h2.heading-title span::after {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+.liens-internes{
+    // width: 80%;
+    // margin: auto;
+
+    .section-title {
+        position: relative;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        color: $blanc;
+        width: auto;
+        margin-bottom: 17px;
+
+        @media screen and (min-width: 500px){
+            margin: 40px 0px;
+        }
+    }
+
+    .btn{
+        margin: auto;
+        display: inherit;
+        width: 190px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 500px){
+            margin-top: 25px;
+        }
+    }
+    
+}
+
+.sources {
+    font-weight: 300;
+
+    a{
+        text-decoration: underline;
+        color: $noir;
+    }
+}
