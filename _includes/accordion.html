@@ -10,66 +10,77 @@
             <div id="collapse{{ item.n }}" class="accordion-collapse collapse" aria-labelledby="headingOne" >
                 <div class="accordion-body">
                     {% if {{item.nbr_content}} == 6 %}
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
-                        <br>
-                        {{item.content4}}
-                        <br>
-                        <br>
-                        {{item.content5}}
-                        <br>
-                        <br>
-                        {{item.content6}}
-                        <br>
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                            <br>
+                            {{item.content5}}
+                            <br>
+                            <br>
+                            {{item.content6}}
+                            <br>
+                        </ul>
                     {% elsif {{item.nbr_content}} == 5 %}
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
-                        <br>
-                        {{item.content4}}
-                        <br>
-                        <br>
-                        {{item.content5}}
-                        <br>
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                            <br>
+                            {{item.content5}}
+                            <br>
+                        </ul>
                     {% elsif {{item.nbr_content}} == 4 %}
-                        {{item.content1}}
-                        <br><br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
-                        <br>
-                        {{item.content4}}
-                        <br>
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                        </ul>
                     {% elsif {{item.nbr_content}} == 3 %}
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                        </ul>
                     {% elsif {{item.nbr_content}} == 2 %}                  
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                        </ul>
                     {% else %}
-                        {{item.content1}}  
-                        <br>
+                        <ul>
+                            {{item.content1}}  
+                            <br>
+                        </ul>
                     {% endif %} 
                 </div>
             </div>
@@ -89,33 +100,41 @@
                 <div class="accordion-body">
                     
                     {% if {{item.nbr_content}} == 4 %}
-                        {{item.content1}}
-                        <br><br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
-                        <br>
-                        {{item.content4}}
-                        <br>
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                        </ul>
                     {% elsif {{item.nbr_content}} == 3 %}
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
-                        <br>
-                        <br>
-                        {{item.content3}}
-                        <br>
-                    {% elsif {{item.nbr_content}} == 2 %}                  
-                        {{item.content1}}
-                        <br>
-                        <br>
-                        {{item.content2}}
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 2 %}  
+                        <ul>                
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                        </ul>
                     {% else %}
-                        {{item.content1}}  
-                        <br>
+                        <ul>
+                            {{item.content1}}  
+                            <br>
+                        </ul>
                     {% endif %} 
                 </div>
             </div>
