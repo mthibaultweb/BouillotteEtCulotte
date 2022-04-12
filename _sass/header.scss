@@ -46,11 +46,30 @@ body.homepage.scroll-active .navbar-brand {
     border: none;
 }
 
+.dropdown-menu {
+    background-color: $blanc;
+    border: none;
+}
 .nav-item:hover .dropdown-content{
     display: block;
 }
 
-@media screen and (min-width: 500px){
+.nav-link {
+    position: relative;
+    color: $noir;
+    transition: .3s;
+    line-height: 150%;
+
+}
+
+@media screen and (max-width: 991px){
+    .dropdown-menu {
+        position: relative;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px){
     .dropbtn {
         color: $blanc;
         padding: 16px;
@@ -103,4 +122,47 @@ body.homepage.scroll-active .navbar-brand {
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {display: block;}
     
+    /* --------- Header nav animation --------- */
+    .nav-link {
+
+        margin: 0 1rem;
+
+        &::after {
+            position: absolute;
+            content: '';
+            background-color: $primaire;
+            bottom: 0.5rem;
+            left: 0.5rem;
+            width: 2px;
+            height: 2px;
+            opacity: 0;
+            transition: .3s;
+        }
+
+        &.active, &:active {
+            font-weight: 700;
+            font-style: italic;
+
+            &::after, &::after {
+                width: calc(100% - 1rem);
+                opacity: 1;
+            }
+        }
+
+        &:hover::after {
+            width: calc(100% - 1rem);
+            opacity: 1;
+        }
+        &:not(.active, :active):focus, &:not(.active, :active):hover, &.active, &:active {
+            color: $noir;
+        }
+    }
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+}
+@media screen and (min-width: 1200px){
+    .nav-link {
+        margin: 0 1.5rem;
+    }
 }

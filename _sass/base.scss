@@ -1,11 +1,11 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
 
 
 /* Colors */
 
-$primaire: #E8107C;
+$primaire: #E4117B;
 $secondaire: #B60BD2;
 $rose-clair: #F679B8;
 $noir: #17010C;
@@ -85,20 +85,19 @@ h3, .h3{
 /* Buttons */
 
 .btn {
-    padding: 14px 43px;
+    padding: 6px 18px;
     border-radius: 30px;
-}
-
-.btn-sm {
-    padding: 6px 27px;
+    line-height: 110%;
 }
 
 .btn-primary {
     background-color: $primaire;
     border-color: $primaire;
+    color: $noir;
 }
 
 .btn-secondary {
     background-color: $secondaire;
     border-color: $secondaire;
+    color: $blanc;
 }
