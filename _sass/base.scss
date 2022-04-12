@@ -96,28 +96,15 @@ p{
 .btn {
     padding: 6px 18px;
     border-radius: 30px;
-<<<<<<< HEAD
     font-size: 16px;
 }
 
-.btn-sm {
-    padding: 6px 27px;
-}
-
-.btn-primary {
-    background-color: $jaune;
-    border-color: $jaune;
-    color: #17010C;
-    width: 50%;
-=======
-    line-height: 110%;
-}
 
 .btn-primary {
     background-color: $primaire;
     border-color: $primaire;
     color: $noir;
->>>>>>> 471b59fb32694112201a26e7d3a34e7a912c3b48
+    line-height: 110%;
 }
 
 .btn-secondary {
