@@ -1,6 +1,6 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
 
 
 /* Colors */
@@ -94,8 +94,9 @@ p{
 /* Buttons */
 
 .btn {
-    padding: 14px 43px;
+    padding: 6px 18px;
     border-radius: 30px;
+<<<<<<< HEAD
     font-size: 16px;
 }
 
@@ -108,9 +109,19 @@ p{
     border-color: $jaune;
     color: #17010C;
     width: 50%;
+=======
+    line-height: 110%;
+}
+
+.btn-primary {
+    background-color: $primaire;
+    border-color: $primaire;
+    color: $noir;
+>>>>>>> 471b59fb32694112201a26e7d3a34e7a912c3b48
 }
 
 .btn-secondary {
     background-color: $secondaire;
     border-color: $secondaire;
+    color: $blanc;
 }
