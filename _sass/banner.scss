@@ -3,15 +3,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 375px;
-    position: fixed;
-    top: 0;
+    height: 325px;
+    position: sticky;
+    top: 50px;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
+    padding: 50px 0;
+
 }
 
+
 .banner-titles{
-    min-height:370px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,4 +24,22 @@
         color: #fff;
     }
 }
+
+.breadcrumb-item{
+    text-decoration: none;
+    font-weight: 300;
+    opacity: .8;
+    a{
+        color: white;
+    }
+    &.active{
+        opacity: 1;
+        color: white;
+    }
+}
+
+
+
+    
+
 
