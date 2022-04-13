@@ -80,6 +80,23 @@ h2{
 }
 
 
+.cta-soutien{
+    background-color: #b80bd236;
+    h2 span{
+        background-image: linear-gradient(to right, $secondaire 0%, $secondaire 100%);
+    }
+    h3{
+        color: $secondaire;
+    }
+    .btn{
+        background-color: $secondaire;
+        border: $secondaire;
+        color: white;
+    }
+    
+}
+
+
 /* --------------- block accueil --------------- */
 
 .card-summary {
@@ -106,21 +123,6 @@ h2{
     }
 }
 
-.cta-soutien{
-    background-color: #b80bd236;
-    h2 span::after {
-        border-color: $secondaire;
-    }
-    h3{
-        color: $secondaire;
-    }
-    .btn{
-        background-color: $secondaire;
-        border: $secondaire;
-        color: white;
-    }
-    
-}
 
 // .card-summary .card-body .btn {
 //     position: absolute;

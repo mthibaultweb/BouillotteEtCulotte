@@ -34,6 +34,7 @@ body, p {
     font-size: 1rem;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
@@ -96,6 +97,11 @@ p{
     color: $noir;
     line-height: 110%;
     
+    &:hover{
+        background-color: transparent;
+        color: $noir;
+        border-color: $jaune;
+    }
 }
 
 .btn-secondary {
