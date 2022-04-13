@@ -3,18 +3,16 @@
     position: relative;
     font-weight: 300;
 
-    .nav-footer {
-        .nav-link {
-            margin-bottom: 1.5rem;
-            &::after {
-                background-color: white;
-                bottom: 0;
-                left: 0;
-                height: 1px;
-            }
-            &:hover::after {
-                width: 100%;
-            }
+    .nav-link {
+        margin-bottom: 1.5rem;
+        &::after {
+            background-color: white;
+            bottom: 0;
+            left: 0;
+            height: 1px;
+        }
+        &:hover::after {
+            width: 100%;
         }
     }
     .nav-social {
@@ -30,6 +28,19 @@
             &:hover::after {
                 width: calc(100% - 2rem);
             }
+        }
+    }
+    .nav-footer-bottom {
+        .nav-item {
+
+            .nav-link {
+                margin-bottom: 0;
+            }
+
+            &+.nav-item {
+                margin-top: 1rem;
+            }
+
         }
     }
 }

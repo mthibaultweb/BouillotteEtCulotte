@@ -40,20 +40,20 @@
             <div class="col-12 pb-3"></div>
         </div>
         <hr class="bg-blanc">
-        <div class="row py-3">
+        <div class="row pt-3 pb-5">
             <div class="col-12 col-lg-2 mb-3 mb-lg-0 d-flex justify-content-center justify-content-lg-start">
                 <img class="img-fluid" src="{{ "/assets/images/logo-mmi.svg" | relative_url }}" alt="MMI Bordeaux" />
             </div>
             <div class="col-lg-2"></div>
             <div class="col-12 col-lg-3">
-                <ul class="nav flex-row flex-lg-column justify-content-center align-items-start mb-3 mb-lg-0">
+                <ul class="nav nav-footer-bottom flex-row flex-lg-column justify-content-center align-items-start mb-3 mb-lg-0">
                     {% for item in site.data.footer-secondary-menu %}
-                    <li class="nav-item mx-2 mx-lg-0"><a href="{{ item.link }}" class="nav-link p-0 text-white">{{ item.name }}</a></li>
+                    <li class="nav-item small mx-2 mx-lg-0"><a href="{{ item.link }}" class="nav-link p-0 text-white">{{ item.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
             <div class="col-12 col-lg-5">
-                <p class="text-center text-lg-start text-white small mb-0">Créé dans le cadre du Worshop 2022, MMI Bordeaux.</p>
+                <p class="text-center text-lg-start text-white small">Créé dans le cadre du Worshop 2022, MMI Bordeaux.</p>
                 <p class="text-center text-lg-start text-white small mb-0">Ce site ne collecte pas de données personnelles.</p>
             </div>
         </div>
