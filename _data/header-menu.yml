@@ -6,23 +6,23 @@
   link: /que-m-arrive-t-il/
   level: 1
   type: link
-- name: En parler
+- name: Libérer la parole
   link: /en-parler/
   level: 2
-  subname-1: Libérer la parole
+  subname-1: Comment j'en parle ?
   sublink-1: /comment-j-en-parle/
   subname-2: Comment je réponds ?
   sublink-2: /comment-je-reponds/
   type: link
-- name: Kit de survie
+- name: Apaiser mes douleurs
   link: /kit-de-survie/
   level: 2
-  subname-1: Apaiser mes douleurs
+  subname-1: Ils peuvent m'aider
   sublink-1: /ils-peuvent-m-aider/
   subname-2: Ça me soulage
   sublink-2: /ca-me-soulage/
   type: link
-- name: Comment soutenir ?
+- name: Devenir un allié
   link: /comment-soutenir/
   level: 1
   type: button
