@@ -32,7 +32,7 @@ title: Bouillotte & Culotte
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive t-il ?</h3>
                 <p class="card-text">Ici, on t’explique comment fonctionne ton utérus, ton cycle menstruel et l’endométriose. Nous t’avons aussi listé les principaux symptômes de cette maladie.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Découvrir les symptômes</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Découvrir les symptômes</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between mb-72">
@@ -42,7 +42,7 @@ title: Bouillotte & Culotte
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment en parler ?</h3>
                 <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses proches. Voici quelques conseils pour expliquer ce qu’il t’arrive et répondre aux questions indiscrètes de certains.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Libérer la parole</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Libérer la parole</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between">
@@ -52,22 +52,22 @@ title: Bouillotte & Culotte
             <div class="order-2 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
                 <p class="card-text">Vivre avec une douleur insoutenable est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques astuces pour calmer ta douleur.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Apaiser mes douleurs</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
         </div>
     </div>
 </section>
 <section class="section cta-soutien bg-violet">
+    <div class="cta-image">
+        <img src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
+    </div>
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="cta-image order-1 order-lg-2 col-12 col-md-6">
-                <img src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
-            </div>
-            <div class="order-2 order-lg-1 col-12 col-md-6 d-flex justify-content-center flex-column">
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
                 <h2 class="mb-56"><span>Accompagner une endogirl</span></h2>
                 <h3 class="titre_sommaire_accueil">Comment soutenir ?</h3>
                 <p class="card-text">Si tu veux savoir comment aider l’une de tes proches qui est atteinte d’endométriose, alors tu es au bon endroit. </p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Devenir un allié</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-secondary">Devenir un allié</a>
             </div>
         </div>
     </div>
@@ -76,8 +76,8 @@ title: Bouillotte & Culotte
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
-                <h2 class="mb-4"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-10 mt-75 mb-5">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
+                <h2 class="mb-56"><span>Elles partagent leur expériences</span></h2>
+                <p class="col-lg-10">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
             </div>
         </div>
     </div>
