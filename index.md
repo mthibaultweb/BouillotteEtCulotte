@@ -31,7 +31,7 @@ title: Bouillotte & Culotte
             </div>
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive t-il ?</h3>
-                <p class="card-text">Ici, on t’explique comment fonctionne ton utérus, ton cycle menstruel et l’endométriose. Nous t’avons aussi listé les principaux symptômes de cette maladie.</p>
+                <p class="card-text">Ici, on t’explique comment fonctionne ton utérus, ton <b>cycle menstruel</b> et l’endométriose. Nous t’avons aussi listé les principaux <b>symptômes</b> de cette maladie.</p>
                 <a href="/que-m-arrive-t-il/" class="btn btn-primary">Découvrir les symptômes</a>
             </div>
         </div>
@@ -41,7 +41,7 @@ title: Bouillotte & Culotte
             </div>
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment en parler ?</h3>
-                <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses proches. Voici quelques conseils pour expliquer ce qu’il t’arrive et répondre aux questions indiscrètes de certains.</p>
+                <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses <b>proches</b>. Voici quelques <b>conseils</b> pour expliquer ce qu’il t’arrive et <b>répondre</b> aux questions indiscrètes de certains.</p>
                 <a href="/que-m-arrive-t-il/" class="btn btn-primary">Libérer la parole</a>
             </div>
         </div>
@@ -51,7 +51,7 @@ title: Bouillotte & Culotte
             </div>
             <div class="order-2 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
-                <p class="card-text">Vivre avec une douleur insoutenable est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques astuces pour calmer ta douleur.</p>
+                <p class="card-text">Vivre avec une <b>douleur insoutenable</b> est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques <b>astuces</b> pour calmer ta douleur.</p>
                 <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
         </div>
@@ -66,21 +66,13 @@ title: Bouillotte & Culotte
             <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
                 <h2 class="mb-56"><span>Accompagner une endogirl</span></h2>
                 <h3 class="titre_sommaire_accueil">Comment soutenir ?</h3>
-                <p class="card-text">Si tu veux savoir comment aider l’une de tes proches qui est atteinte d’endométriose, alors tu es au bon endroit. </p>
+                <p class="card-text">Si tu veux savoir <b>comment aider</b> l’une de tes <b>proches</b> qui est atteinte d’endométriose, alors tu es au bon endroit. </p>
                 <a href="/que-m-arrive-t-il/" class="btn btn-secondary">Devenir un allié</a>
             </div>
         </div>
     </div>
 </section>
 <section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <h2 class="mb-56"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-10">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
-            </div>
-        </div>
-    </div>
     {% include testimonials-endogirls.html %}
 </section>
 

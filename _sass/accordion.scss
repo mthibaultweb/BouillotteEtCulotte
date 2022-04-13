@@ -4,7 +4,7 @@
 }
 
 .accordion-button{
-    background-color: $primary;
+    background-color: $rose;
     color: $white;
     border-radius: 15px;
     &:focus{
@@ -12,7 +12,7 @@
         box-shadow: none;
     }
     &:not(.collapsed){
-        background-color: $primary;
+        background-color: $rose;
         color:$white;
         &::after{
             content:"";
