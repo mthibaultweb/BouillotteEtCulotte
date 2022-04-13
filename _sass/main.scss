@@ -1,16 +1,16 @@
+body {
+    #main {
+        padding-top: 1.5rem;
+        background: $white;
+        z-index: 10;
+        position: relative;
+        scroll-behavior: smooth;
+    }
 
-
-#main {
-    padding-top: 1.5rem;
-    background: $blanc;
-    z-index: 10;
-    position: relative;
-    scroll-behavior: smooth;
-}
-
-body:not(.homepage)#main{
-    margin-top: -1.5rem;
-    border-radius: 20px 20px 0 0;
+    &:not(.homepage) #main {
+        margin-top: -1.5rem;
+        border-radius: 20px 20px 0 0;
+    }
 }
 
 .devenir-un-allie #main {
@@ -29,136 +29,142 @@ body:not(.homepage)#main{
     }
     
 
-}
-
-/* --------------- titre contenu --------------- */
+/* --------------- Titre accueil --------------- */
 
 .heading-title span {
+    
+    display: block;
+    width: fit-content;
     position: relative;
     font-style: italic;
     font-weight: bold;
     color: white;
-}
+    margin-top: 1.25rem;
 
-.heading-title span::after {
-    content: '';
-    position: absolute;
-    left: -2.5rem;
-    right: -2.5rem;
-    background-color: $primaire;
-    z-index: -1;
-}
-
-h1.heading-title span::before, h1.heading-title span::after {
-    height: 3rem;
-    
-}
-
-h1.heading-title span::before {
-    content: '';
-    position: absolute;
-    left: -2.75rem;
-    right: -2.75rem;
-    background-color: $jaune2;
-    z-index: -1;
-    transform: rotate(2deg);
-}
-
-h2.heading-title span::after {
-    height: 3rem;
-}
-
-
-h2{
-    font-weight: 800;
-    font-style: italic;
-    font-size: 32px;
-    // span{
-    //     position: relative;
-    //     &::after{
-    //         content:'';
-    //         position: absolute;
-    //         width: 100%;
-    //         border-color: $primaire;
-    //         left: 0;
-    //         border-style: solid;
-    //         border-width: 0 0 3px;
-    //         bottom: -2px;
-    //     }
-    // }
-    span {
-        background-image: linear-gradient(to right, $primaire 0%, $primaire 100%);
-        background-position: 0 100%;
-        background-size: 100% 3px;
-        -webkit-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-        transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-        padding: 0.25rem 0;
-        background-repeat: no-repeat;
-        line-height: 1.5;
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: -1;
     }
-}
 
+    &::before {
+        
+        left: -1.25rem;
+        right: -1.25rem;
+        background-color: $primary;
+        transform: rotate(2deg);
+    }
 
-.cta-soutien{
-    background-color: #b80bd236;
-    padding: 0;
-    h2 span{
-        background-image: linear-gradient(to right, $secondaire 0%, $secondaire 100%);
-    }
-    h3{
-        color: $secondaire;
-    }
-    .btn{
-        background-color: $secondaire;
-        border: $secondaire;
-        color: white;
+    &::after {
+        left: -1rem;
+        right: -1rem;
+        background-color: $rose;
     }
     
+
 }
 
+@media screen and (min-width: 991px) {
+    .heading-title span {
+        margin-top: 1.25rem;
+    
+        &::before {
+            left: -2rem;
+            right: -2rem;
+        }
+
+        &::after {
+            left: -1.75rem;
+            right: -1.75rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .heading-title span {
+        margin-top: 1.25rem;
+    
+        &::before {
+            left: -2.75rem;
+            right: -2.75rem;
+        }
+
+        &::after {
+            left: -2.5rem;
+            right: -2.5rem;
+        }
+    }
+}
+
+/* --------------- Section CTA Soutien --------------- */
+
+.cta-soutien {
+    position: relative;
+    
+    h2 span {
+        background-image: linear-gradient(to right, $secondary 0%, $secondary 100%);
+    }
+    h3 {
+        color: $secondary;
+    }
+
+    .cta-image {
+        display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        .cta-image {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            padding-right: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        } 
+    }
+}
 
 /* --------------- block accueil --------------- */
 
 .card-summary {
     background-color: transparent;
     margin-bottom: 80px;
-}
-.card-summary .card-body {
-    position: relative;
-    font-weight: 300;
-    padding: 40px 0 0;
-}
-
-.card-summary .card-img {
-    border-radius: 12px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-.arrow-down svg{
-    fill: $primaire;
-
-    &:hover{
-        fill: $violet;
+    .card-body {
+        position: relative;
+        font-weight: 300;
+        padding: 40px 0 0;
+    }
+    .card-img {
+        border-radius: 12px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     }
 }
 
+.arrow-down svg {
+    fill: $secondary;
 
-// .card-summary .card-body .btn {
-//     position: absolute;
-//     top: 0;
-//     left: 50%;
-//     transform: translate(-50%,-50%);
-// }
+    &:hover {
+        fill: $secondary2;
+    }
+}
 
-.card-text{
+.card-text {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.liens-internes{
-    // width: 80%;
-    // margin: auto;
+.liens-internes {
 
     .section-title {
         position: relative;
@@ -167,7 +173,7 @@ h2{
         font-size: 24px;
         display: flex;
         justify-content: center;
-        color: $blanc;
+        color: $white;
         width: auto;
         margin-bottom: 17px;
 
@@ -176,18 +182,16 @@ h2{
         }
     }
 
-    .btn{
+    .btn {
         margin: auto;
         display: inherit;
         width: 190px;
         margin-bottom: 30px;
         
-
         @media screen and (min-width: 500px){
             margin-top: 25px;
         }
-    }
-    
+    } 
 }
 
 ol{
@@ -196,21 +200,21 @@ ol{
 
 .sources {
     font-weight: 300;
-    .row{
-        ul{
-            li{
+
+    .row {
+        ul {
+            li {
                 list-style-type: none;
-                color: $primaire;
-                a{
+                color: $rose;
+                a {
                     text-decoration: underline;
-                    color: $primaire;
+                    color: $rose;
                 }
             }
         }
-        div{
+
+        div {
             margin-top: 2rem;
         }
-    }
-    
-    
+    } 
 }

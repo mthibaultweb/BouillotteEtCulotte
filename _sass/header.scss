@@ -1,16 +1,19 @@
-#header {
-    
-}
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
     transition: ease-out 0.3s;
-    box-shadow: 0px 4px 8px 0px #00000047;
-    background-color: $blanc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    background-color: $white;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1050;
+    .nav-item {
+
+        &:hover .dropdown-content {
+            display: block;
+        }
+    }
 }
 
 .navbar-brand {
@@ -18,7 +21,7 @@
 }
 
 .navbar-nav {
-    background-color: $blanc;
+    background-color: $white;
 }
 
 .navbar-toggler {
@@ -31,14 +34,7 @@ body.homepage .navbar {
 
 body.homepage.scroll-active .navbar {
     box-shadow: 0px 4px 8px 0px #00000047;
-    background-color: $blanc;
-}
-
-
-
-body.homepage .navbar-brand.solid,
-body.homepage.scroll-active .navbar-brand {
-    opacity: 1;
+    background-color: $white;
 }
 
 .navbar-light .navbar-toggler {
@@ -46,16 +42,13 @@ body.homepage.scroll-active .navbar-brand {
 }
 
 .dropdown-menu {
-    background-color: $blanc;
+    background-color: $white;
     border: none;
-}
-.nav-item:hover .dropdown-content{
-    display: block;
 }
 
 .nav-link {
     position: relative;
-    color: $noir;
+    color: $dark;
     transition: .3s;
     line-height: 150%;
 
@@ -68,68 +61,41 @@ body.homepage.scroll-active .navbar-brand {
     }
 }
 
-@media screen and (min-width: 992px){
-    .dropbtn {
-        color: $blanc;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-    }
-      
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown-all {
-        position: relative;
-        display: inline-block;
-    }
-    
+@media screen and (min-width: 991px){
+        
     /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: $blanc;
+        background-color: $white;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     
-        .dropdown-item.active, .dropdown-item:active {
-            background-color: $blanc;
-            color: #0000009f;
-            font-weight: bold;
+        .dropdown-item {
 
-            &:hover{
-                color: $noir;
+            &.active {
+                font-weight: 700;
+                font-style: italic;
+                &:hover{
+                    color: $dark;
+                }
+            }
+
+            &:hover {
+                background-color: $fuschia;
+                color: $white;
             }
         }
-
-
     }
-    
-    /* Links inside the dropdown */
-    .dropdown-content a {
-        color: #0000009f;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {
-        background-color: $blanc;
-        color: $noir;
-    }
-    
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {display: block;}
     
     /* --------- Header nav animation --------- */
     .nav-link {
 
-        margin: 0 1rem;
-
         &::after {
             position: absolute;
             content: '';
-            background-color: $primaire;
+            background-color: $rose;
             bottom: 0.5rem;
             left: 0.5rem;
             width: 2px;
@@ -153,15 +119,19 @@ body.homepage.scroll-active .navbar-brand {
             opacity: 1;
         }
         &:not(.active, :active):focus, &:not(.active, :active):hover, &.active, &:active {
-            color: $noir;
+            color: $dark;
         }
     }
+    #header .nav-link {
+        margin: 0 .5rem;
+    }
+
     .navbar-expand-lg .navbar-nav {
         align-items: center;
     }
 }
 @media screen and (min-width: 1200px){
-    .nav-link {
+    #header .nav-link {
         margin: 0 1.5rem;
     }
 }
