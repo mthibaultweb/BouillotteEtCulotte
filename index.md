@@ -22,7 +22,7 @@ title: Bouillotte & Culotte
     </div>
 </header>
 
-<section id="section sect1">
+<section id="sect1" class="section">
     <div class="container">
         <div class="mb-5 mt-4 mt-lg-5">
             <h2><span>Ensemble apprenons à comprendre cette maladie</span></h2>
@@ -62,7 +62,7 @@ title: Bouillotte & Culotte
 <section class="cta-soutien">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4">
+            <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
                 <img class="w-100" src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
             </div>
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column pb-4">
