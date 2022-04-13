@@ -1,22 +1,20 @@
+body {
+    #main {
+        padding-top: 1.5rem;
+        background: $blanc;
+        z-index: 10;
+        position: relative;
+        scroll-behavior: smooth;
+    }
 
-
-#main {
-    padding-top: 1.5rem;
-    background: $blanc;
-    z-index: 10;
-    position: relative;
-    padding-bottom: 1.5rem;
-    scroll-behavior: smooth;
+    &:not(.homepage) #main {
+        margin-top: -1.5rem;
+        border-radius: 20px 20px 0 0;
+    }
 }
 
-body:not(.homepage)#main{
-    margin-top: -1.5rem;
-    border-radius: 20px 20px 0 0;
-}
 
-
-
-/* --------------- titre contenu --------------- */
+/* --------------- Titre accueil --------------- */
 
 .heading-title span {
     
@@ -85,94 +83,69 @@ body:not(.homepage)#main{
     }
 }
 
+/* --------------- Section CTA Soutien --------------- */
 
-h2{
-    font-weight: 800;
-    font-style: italic;
-    font-size: 32px;
-    // span{
-    //     position: relative;
-    //     &::after{
-    //         content:'';
-    //         position: absolute;
-    //         width: 100%;
-    //         border-color: $primaire;
-    //         left: 0;
-    //         border-style: solid;
-    //         border-width: 0 0 3px;
-    //         bottom: -2px;
-    //     }
-    // }
-    span {
-        background-image: linear-gradient(to right, $primaire 0%, $primaire 100%);
-        background-position: 0 100%;
-        background-size: 100% 3px;
-        -webkit-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-        transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
-        padding: 0.25rem 0;
-        background-repeat: no-repeat;
-        line-height: 1.5;
+.cta-soutien {
+    position: relative;
+    h2 span {
+        background-image: linear-gradient(to right, $secondaire 0%, $secondaire 100%);
+    }
+    h3 {
+        color: $secondaire;
+    }
+    .btn {
+        background-color: $secondaire;
+        border: $secondaire;
+        color: white;
+    }
+    @media screen and (min-width: 768px) {
+        .cta-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            padding-right: 0;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        } 
     }
 }
-
 
 /* --------------- block accueil --------------- */
 
 .card-summary {
     background-color: transparent;
     margin-bottom: 80px;
-}
-.card-summary .card-body {
-    position: relative;
-    font-weight: 300;
-    padding: 40px 0 0;
+    .card-body {
+        position: relative;
+        font-weight: 300;
+        padding: 40px 0 0;
+    }
+    .card-img {
+        border-radius: 12px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
 }
 
-.card-summary .card-img {
-    border-radius: 12px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-.arrow-down svg{
+.arrow-down svg {
     fill: $primaire;
 
-    &:hover{
+    &:hover {
         fill: $violet;
     }
 }
 
-.cta-soutien{
-    background-color: #b80bd236;
-    h2 span::after {
-        border-color: $secondaire;
-    }
-    h3{
-        color: $secondaire;
-    }
-    .btn{
-        background-color: $secondaire;
-        border: $secondaire;
-        color: white;
-    }
-    
-}
-
-// .card-summary .card-body .btn {
-//     position: absolute;
-//     top: 0;
-//     left: 50%;
-//     transform: translate(-50%,-50%);
-// }
-
-.card-text{
+.card-text {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.liens-internes{
-    // width: 80%;
-    // margin: auto;
+.liens-internes {
 
     .section-title {
         position: relative;
@@ -190,25 +163,35 @@ h2{
         }
     }
 
-    .btn{
+    .btn {
         margin: auto;
         display: inherit;
         width: 190px;
         margin-bottom: 30px;
         
-
         @media screen and (min-width: 500px){
             margin-top: 25px;
         }
-    }
-    
+    } 
 }
 
 .sources {
     font-weight: 300;
 
-    a{
-        text-decoration: underline;
-        color: $noir;
-    }
+    .row {
+        ul {
+            li {
+                list-style-type: none;
+                color: $primaire;
+                a {
+                    text-decoration: underline;
+                    color: $primaire;
+                }
+            }
+        }
+
+        div {
+            margin-top: 2rem;
+        }
+    } 
 }

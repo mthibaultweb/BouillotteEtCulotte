@@ -1,34 +1,51 @@
-/* Fonts */
+/* --------------- Fonts --------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,700&display=swap');
 
-/* Colors */
+/* --------------- Colors --------------- */
 
 $primaire: #E4117B;
 $secondaire: #B60BD2;
 $rose-clair: #F679B8;
 $noir: #17010C;
 $blanc: #fdfdfd;
-$violet: #a81d62;
+$fuschia: #a81d62;
+$violet: #EFCCF4;
 $jaune: #FFE482;
 $jaune2: #FFD84D;
 $rose:#f679b8;
 
+/* --------------- Backgrounds --------------- */
 
-/* Backgrounds */
-
-.bg-violet {
-    background-color: $violet;
-}
 .bg-blanc {
     background-color:  $blanc;
 }
-.bg-rose {
-    background-color:  $rose-clair;
-    width: 80%;
+.bg-fuschia {
+    background-color: $fuschia;
+}
+.bg-violet {
+    background-color:  $violet;
 }
 
+/* --------------- Sections --------------- */
 
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @media screen and (min-width: 991px){
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    &:not([class*="bg-"])+&:not([class*="bg-"]),
+    &.bg-blanc+&.bg-blanc,
+    &.bg-fuschia+&.bg-fuschia,
+    &.bg-violet+&.bg-violet {
+        padding-top: 0;
+    }
+}
+
+/* --------------- Headings and Paragraphs --------------- */
 
 body, p {
     font-size: 1rem;
@@ -44,52 +61,65 @@ body, p {
 
 h1, .h1 {
     font-size: 1.75rem;
+    font-weight: 800;
+    font-style: italic;
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
         font-size: 2rem;
     }
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
         font-size: 2.5rem;
-    }
+    } 
 }
 
 h2, .h2 {
     font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
     margin-bottom: 30px;
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
         font-size: 1.75rem;
     }
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
         font-size: 2rem;
+    }
+    span {
+        background-image: linear-gradient(to right, $primaire 0%, $primaire 100%);
+        background-position: 0 100%;
+        background-size: 100% 3px;
+        -webkit-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+        transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+        padding: 0.25rem 0;
+        background-repeat: no-repeat;
+        line-height: 1.5;
     }
 }
 
-h3, .h3{
+h3, .h3 {
     margin-bottom: 10px;
     font-size: 1.25rem;
     font-weight: 800;
     font-style: italic;
     color: $primaire;
 
-    @media screen and (min-width: 992px){
+    @media screen and (min-width: 992px) {
         font-size: 1.5rem;
     }
 
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
         font-size: 1.75rem;
     }
 }
 
-
-p{
+p {
     font-weight: 300;
-    font-size: 14px;
-    @media screen and (min-width: 500px){
-        font-size: 18px;
-    }
+    font-size: 1rem;
+    @media screen and (min-width: 992px){
+        font-size: 1.125rem;
+    }  
 }
 
 b, strong {
@@ -97,28 +127,41 @@ b, strong {
     font-style: italic;
 }
 
-/* Utilities */
+/* --------------- Utilities --------------- */
 
-.mt-75 {
-    margin-top: 75px;
+.mb-56 {
+    margin-bottom: 3.5rem;
 }
-.mt-125 {
-    margin-top: 125px;
-}
-.mb-75 {
-    margin-bottom: 75px;
+.mb-72 {
+    margin-bottom: 4.5rem;
 }
 
-.mb-100 {
-    margin-bottom: 100px;
+@media screen and (min-width: 991px){
+    .mt-lg-75 {
+        margin-top: 75px;
+    }
+    .mt-lg-125 {
+        margin-top: 125px;
+    }
+    .mb-lg-75 {
+        margin-bottom: 75px;
+    }
+    
+    .mb-lg-100 {
+        margin-bottom: 100px;
+    }
+    
+    .pb-lg-100 {
+        padding-bottom: 100px;
+    }
 }
 
-/* Buttons */
+/* --------------- Buttons --------------- */
 
 .btn {
     padding: 6px 25px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 1rem;
     width: fit-content;
 }
 
@@ -129,6 +172,11 @@ b, strong {
     color: $noir;
     line-height: 110%;
     
+    &:hover{
+        background-color: transparent;
+        color: $noir;
+        border-color: $jaune;
+    }
 }
 
 .btn-secondary {

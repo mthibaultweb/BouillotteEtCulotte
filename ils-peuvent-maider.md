@@ -6,7 +6,7 @@ permalink: /ils-peuvent-m-aider/
 bgimg: commentjenparle_tel.jpg
 ---
 
-<h2>Allo <span>docteur !</span></h2>
+<h2><span>Allo docteur !</span></h2>
 
 
 {% include recos-medecins.html %}
