@@ -13,7 +13,23 @@ body:not(.homepage)#main{
     border-radius: 20px 20px 0 0;
 }
 
+.devenir-un-allie #main {
+    h3, a{
+        color: $secondaire;
+    }
+    h2 span{
+        background-image: linear-gradient(to right, $secondaire 0%, $secondaire 100%) ;
+    }
+    li span{
+        color: $secondaire;
+        font-weight: 800;
+    }
+    .btn{
+        color: $noir;
+    }
+    
 
+}
 
 /* --------------- titre contenu --------------- */
 
@@ -172,6 +188,10 @@ h2{
         }
     }
     
+}
+
+ol{
+    list-style-type: none;
 }
 
 .sources {

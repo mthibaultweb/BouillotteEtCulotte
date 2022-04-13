@@ -9,15 +9,15 @@ permalink: /comment-j-en-parle/
         <div class="row">
             <h3>Sommaire</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
-                <li><a href="#">S’informer pour mieux en parler</a></li>
-                <li><a href="#">Les comptes Instagram qui te conseillent</a></li>
-                <li><a href="#">En parler aux personnes qui m’entoure</a></li>
+                <li><a href="#sect1">S’informer pour mieux en parler</a></li>
+                <li><a href="#sect2">Les comptes Instagram qui te conseillent</a></li>
+                <li><a href="#sect3">En parler aux personnes qui m’entoure</a></li>
             </ul>
         </div>
     </div>
 </section>
 
-<section>
+<section id="sect1">
     <div class="container">
         <h2><span>S’informer pour mieux en parler</span></h2>
         <div class="row d-flex justify-content-lg-between mb-lg-75">
@@ -45,7 +45,7 @@ permalink: /comment-j-en-parle/
     </div>
 </section>
 
-<section>
+<section id="sect2">
     <div class="container">
         <h2><span>Les comptes Instagram qui te conseillent</span></h2>
         <div class="row mb-50">
@@ -57,7 +57,7 @@ permalink: /comment-j-en-parle/
     </div> 
 </section>
 
-<section>
+<section id="sect3">
     <div class="container">
         <h2><span>En parler aux personnes qui m’entoure</span></h2>
         {% include accordion.html %}
@@ -77,7 +77,7 @@ permalink: /comment-j-en-parle/
                 <li><a href="#">Info-Endométriose</a></li>
             </ul>
             <div class="d-flex">
-                <img src="#" alt="photo medecin" class="mr-1">
+                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1">
                 <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
             </div>
         </div>

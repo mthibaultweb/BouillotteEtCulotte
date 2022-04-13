@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="{{ " /assets/css/styles.css " | relative_url }}">
 </head>
 
-<body id="body" class="bg-blanc">
+{% if page.url == "/devenir-un-allie/" %}
+<body id="body" class="bg-blanc devenir-un-allie">
+{%else%}
+<body id="body" class="bg-blanc"></body>
+{%endif%}
     {% include header.html %}
     {% if page.url != '/' %}
     {% include banner.html %}
@@ -24,6 +28,7 @@
         </article>
     </main>
     {% include footer.html %}
+
 
     <script src="{{ " /assets/js/bootstrap.min.js " | relative_url }}"></script>
     <script src="{{ " /assets/js/js.js " | relative_url }}"></script>
