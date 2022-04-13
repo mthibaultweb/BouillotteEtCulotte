@@ -77,7 +77,7 @@ title: Bouillotte & Culotte
         <div class="row">
             <div class="col-12 col-lg-8">
                 <h2 class="mb-4"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-9 mb-5">Tu souhaites connaître l’expérience des femmes concernées ? Tu aimerais savoir si tu n’es pas la seule dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de témoigner pour partager leurs expériences et leurs ressentis.</p>
+                <p class="col-lg-10 mb-5">Tu souhaites connaître l’expérience des femmes concernées ? Tu aimerais savoir si tu n’es pas la seule dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de témoigner pour partager leurs expériences et leurs ressentis.</p>
             </div>
         </div>
     </div>
