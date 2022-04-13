@@ -19,38 +19,70 @@ body:not(.homepage)#main{
 /* --------------- titre contenu --------------- */
 
 .heading-title span {
+    
+    display: block;
+    width: fit-content;
     position: relative;
     font-style: italic;
     font-weight: bold;
     color: white;
-}
+    margin-top: 1.25rem;
 
-.heading-title span::after {
-    content: '';
-    position: absolute;
-    left: -2.5rem;
-    right: -2.5rem;
-    background-color: $primaire;
-    z-index: -1;
-}
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+    }
 
-h1.heading-title span::before, h1.heading-title span::after {
-    height: 3rem;
+    &::before {
+        
+        left: -1.25rem;
+        right: -1.25rem;
+        background-color: $jaune2;
+        transform: rotate(2deg);
+    }
+
+    &::after {
+        left: -1rem;
+        right: -1rem;
+        background-color: $primaire;
+    }
     
+
 }
 
-h1.heading-title span::before {
-    content: '';
-    position: absolute;
-    left: -2.75rem;
-    right: -2.75rem;
-    background-color: $jaune2;
-    z-index: -1;
-    transform: rotate(2deg);
+@media screen and (min-width: 991px) {
+    .heading-title span {
+        margin-top: 1.25rem;
+    
+        &::before {
+            left: -2rem;
+            right: -2rem;
+        }
+
+        &::after {
+            left: -1.75rem;
+            right: -1.75rem;
+        }
+    }
 }
 
-h2.heading-title span::after {
-    height: 3rem;
+@media screen and (min-width: 1200px) {
+    .heading-title span {
+        margin-top: 1.25rem;
+    
+        &::before {
+            left: -2.75rem;
+            right: -2.75rem;
+        }
+
+        &::after {
+            left: -2.5rem;
+            right: -2.5rem;
+        }
+    }
 }
 
 
