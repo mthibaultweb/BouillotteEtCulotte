@@ -6,7 +6,7 @@ title: Bouillotte & Culotte
 <header>
     <div class="container">
         <div class="row justify-content-space-between">
-            <div class="order-2 order-lg-1 col-lg-7 my-4 pt-lg-4    d-flex justify-content-center flex-column">
+            <div class="order-2 order-lg-1 col-lg-7 my-4 pt-lg-4 d-flex justify-content-center flex-column">
                 <h1 class="heading-title text-center mb-4">T'en as marre de <br/><span>te tordre de douleur ?</span></h1>
                 <p class="text-center mb-4 mb-lg-5">Et si on parlait d'endométriose ?</p>
                 <a href="#sect1" class="align-self-center arrow-down">
@@ -26,8 +26,8 @@ title: Bouillotte & Culotte
     <div class="container">
         <div class="mb-5 mt-4 mt-lg-5">
             <h2><span>Ensemble apprenons à comprendre cette maladie</span></h2>
-            <div class="row d-flex justify-content-between mb-75">
-                <div class="col-12 col-lg-6">
+            <div class="row d-flex justify-content-between mt-75 mb-75">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
@@ -37,7 +37,7 @@ title: Bouillotte & Culotte
                 </div>
             </div>
             <div class="row d-flex justify-content-between mb-75">
-                <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4">
+                <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
@@ -47,7 +47,7 @@ title: Bouillotte & Culotte
                 </div>
             </div>
             <div class="row d-flex justify-content-between mb-75">
-                <div class="order-1 col-12 col-lg-6 mb-4">
+                <div class="order-1 col-12 col-lg-6 mb-4 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/protections_hygieniques_homepage.png" | relative_url }}" alt="" >
                 </div>
                 <div class="order-2 col-12 col-lg-5 d-flex justify-content-center flex-column ">
@@ -79,7 +79,7 @@ title: Bouillotte & Culotte
         <div class="row">
             <div class="col-12 col-lg-8">
                 <h2 class="mb-4"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-10 mb-5">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
+                <p class="col-lg-10 mt-75 mb-5">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
             </div>
         </div>
     </div>
