@@ -1,15 +1,20 @@
 <div class="section">
-    <div class="container mt-5 mb-5">
+    <div class="container my-lg-5">
         {% for item in site.data.testimonials-endogirls limit:3 %}
         <div class="row">
             <div class="col-lg-6 justify-content-start {% cycle 'ms-auto', 'me-auto' %}">
-                <div class="card">
+                <div class="card border-0">
                     <div class="card-body">
-
-                        <p>{{ item.testimony }}</p>
-                        <p><b>{{ item.name }}, {{ item.age }},</b> {{ item.status }}</p>
+                        <figure class="mb-0">
+                            <blockquote class="blockquote">
+                                <p>{{ item.testimony }}</p>
+                            </blockquote>
+                            <figcaption class="blockquote-author">
+                                <cite title="Source Title">{{ item.name }}, {{ item.age }}, {{ item.status }}</cite>
+                            </figcaption>
+                        </figure>
                     </div>
-                    <img class="guillemets-haut" src="/assets/images/guillemetsHaut.svg" alt="guillemets">
+                    <img class="guillemets-haut" width="60" src="/assets/images/guillemetsHaut.svg" alt="guillemets">
                   </div>
             </div> 
         </div>
