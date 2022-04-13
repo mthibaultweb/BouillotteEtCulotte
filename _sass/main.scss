@@ -17,11 +17,6 @@ body:not(.homepage)#main{
 
 /* --------------- titre contenu --------------- */
 
-.heading-title{
-    font-size: 40px;
-    font-weight: 400;
-}
-
 .heading-title span {
     position: relative;
     font-style: italic;
@@ -32,16 +27,25 @@ body:not(.homepage)#main{
 .heading-title span::after {
     content: '';
     position: absolute;
-    left: 0;
-    right: 0;
+    left: -2.5rem;
+    right: -2.5rem;
     background-color: $primaire;
-    opacity: 0.7;
     z-index: -1;
 }
 
-h1.heading-title span::after {
+h1.heading-title span::before, h1.heading-title span::after {
     height: 3rem;
     
+}
+
+h1.heading-title span::before {
+    content: '';
+    position: absolute;
+    left: -2.75rem;
+    right: -2.75rem;
+    background-color: $jaune2;
+    z-index: -1;
+    transform: rotate(2deg);
 }
 
 h2.heading-title span::after {

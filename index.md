@@ -6,7 +6,7 @@ title: Bouillotte & Culotte
 <header>
     <div class="container">
         <div class="row justify-content-space-between">
-            <div class="order-2 order-lg-1 col-lg-7 my-4 pt-lg-4 d-flex justify-content-center flex-column">
+            <div class="order-2 order-lg-1 col-lg-6 my-4 pt-lg-4 d-flex justify-content-center flex-column">
                 <h1 class="heading-title text-center mb-4">T'en as marre de <br/><span>te tordre de douleur ?</span></h1>
                 <p class="text-center mb-4 mb-lg-5">Et si on parlait d'endométriose ?</p>
                 <a href="#sect1" class="align-self-center arrow-down">
@@ -15,14 +15,14 @@ title: Bouillotte & Culotte
                     </svg>
                 </a>
             </div>
-            <div class="order-1 order-lg-2 col-12 col-lg-4 my-4 pt-lg-4">
+            <div class="order-1 order-lg-2 col-12 col-lg-6 my-4 pt-lg-4">
                 <img src="{{ "/assets/images/douleurs_homepage.jpg" | relative_url }}" alt="" width="100%" />
             </div>
         </div>
     </div>
 </header>
 
-<section id="section sect1">
+<section id="sect1" class="section">
     <div class="container">
         <div class="mb-5 mt-4 mt-lg-5">
             <h2><span>Ensemble apprenons à comprendre cette maladie</span></h2>
@@ -62,7 +62,7 @@ title: Bouillotte & Culotte
 <section class="cta-soutien">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4">
+            <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
                 <img class="w-100" src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
             </div>
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column pb-4">

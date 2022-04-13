@@ -1,5 +1,6 @@
-
-
+#header {
+    
+}
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -137,7 +138,7 @@ body.homepage.scroll-active .navbar-brand {
             transition: .3s;
         }
 
-        &.active, &:active {
+        &.active {
             font-weight: 700;
             font-style: italic;
 
