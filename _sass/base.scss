@@ -78,8 +78,24 @@ p{
         font-size: 18px;
     }
 }
+
+b, strong {
+    font-weight: 700;
+    font-style: italic;
+}
+
 /* Utilities */
 
+.mt-125 {
+    margin-top: 125px;
+}
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
 
 /* Buttons */
 

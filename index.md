@@ -3,7 +3,7 @@ layout: homepage
 title: Bouillotte & Culotte
 ---
 
-<section >
+<header>
     <div class="container">
         <div class="row justify-content-space-between">
             <div class="order-2 order-lg-1 col-lg-7 my-4 pt-lg-4    d-flex justify-content-center flex-column">
@@ -20,23 +20,23 @@ title: Bouillotte & Culotte
             </div>
         </div>
     </div>
-</section>
+</header>
 
-<section id="sect1">
+<section id="section sect1">
     <div class="container">
         <div class="mb-5 mt-4 mt-lg-5">
             <h2><span>Ensemble apprenons à comprendre cette maladie</span></h2>
-            <div class="row d-flex justify-content-between mt-5 mb-5">
-                <div class="col-12 col-lg-6 mb-4">
+            <div class="row d-flex justify-content-between mb-75">
+                <div class="col-12 col-lg-6">
                     <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
                 </div>
-                <div class="col-12 col-lg-5 d-flex justify-content-center flex-column ">
+                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Que m’arrive t-il ?</h3>
                     <p class="card-text">Ici, on t’explique comment fonctionne ton utérus, ton cycle menstruel et l’endométriose. Nous t’avons aussi listé les principaux symptômes de cette maladie.</p>
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Découvrir les symptômes</a>
                 </div>
             </div>
-            <div class="row d-flex justify-content-between mt-5 mb-5">
+            <div class="row d-flex justify-content-between mb-75">
                 <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4">
                     <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
                 </div>
@@ -46,7 +46,7 @@ title: Bouillotte & Culotte
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Libérer la parole</a>
                 </div>
             </div>
-            <div class="row d-flex justify-content-between mt-5 mb-5">
+            <div class="row d-flex justify-content-between mb-75">
                 <div class="order-1 col-12 col-lg-6 mb-4">
                     <img class="w-100" src="{{ "/assets/images/protections_hygieniques_homepage.png" | relative_url }}" alt="" >
                 </div>
@@ -61,7 +61,7 @@ title: Bouillotte & Culotte
 </section>
 <section class="cta-soutien">
     <div class="container">
-        <div class="row d-flex justify-content-between mt-5 mb-5">
+        <div class="row d-flex justify-content-between">
             <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4">
                 <img class="w-100" src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
             </div>
@@ -74,12 +74,12 @@ title: Bouillotte & Culotte
         </div>
     </div>
 </section>
-<section>
+<section class="mt-125 mb-100">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8">
                 <h2 class="mb-4"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-10 mb-5">Tu souhaites connaître l’expérience des femmes concernées ? Tu aimerais savoir si tu n’es pas la seule dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de témoigner pour partager leurs expériences et leurs ressentis.</p>
+                <p class="col-lg-10 mb-5">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
             </div>
         </div>
     </div>
