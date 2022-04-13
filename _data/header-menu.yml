@@ -7,7 +7,7 @@
   level: 1
   type: link
 - name: Libérer la parole
-  link: /en-parler/
+  link: /liberer-la-parole/
   level: 2
   subname-1: Comment j'en parle ?
   sublink-1: /comment-j-en-parle/
@@ -15,7 +15,7 @@
   sublink-2: /comment-je-reponds/
   type: link
 - name: Apaiser mes douleurs
-  link: /kit-de-survie/
+  link: /apaiser-les-douleurs/
   level: 2
   subname-1: Ils peuvent m'aider
   sublink-1: /ils-peuvent-m-aider/
@@ -23,6 +23,6 @@
   sublink-2: /ca-me-soulage/
   type: link
 - name: Devenir un allié
-  link: /comment-soutenir/
+  link: /devenir-un-allie/
   level: 1
   type: button

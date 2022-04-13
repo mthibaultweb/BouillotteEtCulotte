@@ -5,7 +5,6 @@
     background: $blanc;
     z-index: 10;
     position: relative;
-    padding-bottom: 1.5rem;
     scroll-behavior: smooth;
 }
 
@@ -172,9 +171,24 @@ h2{
 
 .sources {
     font-weight: 300;
-
-    a{
-        text-decoration: underline;
-        color: $noir;
+    .row{
+        ul{
+            li{
+                list-style-type: none;
+                color: $primaire;
+                a{
+                    text-decoration: underline;
+                    color: $primaire;
+                }
+            }
+        }
+        div{
+            margin-top: 2rem;
+        }
     }
+    
+    
+    
+
+    
 }
