@@ -4,6 +4,8 @@ subtitle: Comment diminuer mes douleurs ?
 layout: default
 permalink: /ca-me-soulage/
 bgimg: commentjenparle_tel.jpg
+parentTitle: Apaiser mes douleurs
+parentLink: /apaiser-les-douleurs/
 ---
 <section class="sources section">
     <div class="container">

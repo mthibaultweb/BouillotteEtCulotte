@@ -4,6 +4,8 @@ subtitle: Être écoutée ça fait du bien
 layout: default
 permalink: /ils-peuvent-m-aider/
 bgimg: commentjenparle_tel.jpg
+parentTitle: Apaiser mes douleurs
+parentLink: /apaiser-les-douleurs/
 ---
 
 <section class="section">
