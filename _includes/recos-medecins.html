@@ -1,0 +1,45 @@
+<section class="section recos-medecins">
+
+    <p class="font-weight-300">Oui, les menstruations ça peut faire mal mais si ces douleurs sont trop fortes ou trop fréquentes, consulter un professionnel de santé et/ou médecin est primordial (de même pour tous tes problèmes de santé). Pour ce qui concerne les problèmes dus à ton cycle menstruel ou si tu penses avoir de l’endométriose, nous t’avons préparé une liste non exaustive de professionnels que tu peux aller voir.</p>
+
+    <div class="row">
+        
+            {% for item in site.data.recos-medecins %}
+                
+                <div class="recos-card col-lg-8">
+                    {% if item.title %}<h2>{{ item.title }}<span>{{ item.title-span }}</span></h2>{% endif %}
+                    <h3 class="col-6 col-lg-4 titre-reco">{{ item.name }}</h3>
+
+                    <div class="contenu-recos">
+                        <div class="col-6 col-lg-4 img">
+                            {{ item.img }} 
+                        </div>
+                        <p class="col align-self-center col-6">{{ item.description }}</p>
+                    </div>
+                </div>
+
+            {% endfor %}
+    </div>
+
+</section>
+
+<section class="liens-internes">
+    <p class="section-title bg-rose">Des aides au quotidien</p>
+
+    <h2>Conseils et astuces <span>pour t'aider</span></h2>
+
+    <p>En attendant ton rendez-vous chez le docteur il existe d’autres solutions pour te soulager au quotidien. Alors rends-toi vite sur la page pour les découvrir.</p>
+
+    <a href="/ca-me-soulage/" class="btn btn-primary btn-sm">Ça me soulage</a>
+
+</section>
+
+<section class="sources">
+    
+    <h3>Les sources</h3>
+    <ul class="liste-sources">
+        <li><a href="https://www.endofrance.org/la-maladie-endometriose/diagnostic-endometriose/">EndoFrance</a></li>
+        <li><a href="https://www.psychologies.com/">Psychologies</a></li>
+        <li><a href="https://www.kinemedical.fr/content/82-endometriose-approche-kinesitherapie">KinéMédical</a></li>
+    </ul>
+</section>

@@ -1,10 +1,34 @@
+- name: 'Sahana'
+  age: '20 ans'
+  status: 'diagnostiquée'
+  testimony: "Sahana, j’ai 20 ans, et depuis maintenant 4 ans je suis atteinte d'endométriose, et également du syndrome des ovaires polykystiques."
+- name: 'Mihana'
+  age: '19 ans'
+  status: 'en cours de diagnostic'
+  testimony: 'Ça a commencé par des douleurs au ventre durant les règles, puis hors règles et au bout de deux ans s’est développée une "douleur de fond".'
+- name: 'Caroline'
+  age: '22 ans'
+  status: 'diagnostiquée'
+  testimony: "J’ai réalisé que quelque chose n'était pas normal à 19 ans, au début ça allait mais la douleur est devenue de plus en plus intense. C’est là que j’ai commencé à en parler."
+- name: 'Elsa'
+  age: '19 ans'
+  status: 'diagnostiquée'
+  testimony: "J’ai découvert le problème à cause de nodules dans le nombril, il y a deux ans (j’avais 28/29 ans), mais j’en souffre depuis toute petite."
+- name: 'Eva'
+  age: '20 ans'
+  status: 'diagnostiquée'
+  testimony: "Je me suis rendue compte que ce n’était pas normal au moment où j'étais plus que fatiguée, j’avais tellement mal que je n’arrivais pas à bouger."
+- name: 'Aliénor'
+  age: '18 ans'
+  status: 'diagnostiquée'
+  testimony: "Pendant longtemps on m'a dit que c'était les règles, qu'on avait mal et que c'était normal."
 - name: 'Emma'
   age: '20 ans'
   status: 'en cours de diagnostic'
-  testimony: 'Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.'
+  testimony: >
+    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat. -
+    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
+
 - name: 'Louise'
   age: '26 ans'
   status: 'Diagnostiquée'

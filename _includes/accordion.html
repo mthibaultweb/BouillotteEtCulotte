@@ -1,0 +1,146 @@
+{% if page.url == "/que-m-arrive-t-il/" %}
+<div class="accordion" id="accordionExample">
+    {% for item in site.data.accordion-symp %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ item.n }}" aria-expanded="true" aria-controls="collapse{{}}">
+                    <strong>{{ item.name }}</strong>
+                </button>
+            </h2>
+            <div id="collapse{{ item.n }}" class="accordion-collapse collapse" aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                    {% if {{item.nbr_content}} == 6 %}
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                            <br>
+                            {{item.content5}}
+                            <br>
+                            <br>
+                            {{item.content6}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 5 %}
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                            <br>
+                            {{item.content5}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 4 %}
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 3 %}
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 2 %}                  
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                        </ul>
+                    {% else %}
+                        <ul>
+                            {{item.content1}}  
+                            <br>
+                        </ul>
+                    {% endif %} 
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="accordion" id="accordionExample">
+    {% for item in site.data.accordion-solutions %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading{{ item.n }}">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ item.n }}" aria-expanded="true" aria-controls="collapse{{}}">
+                    <strong>{{ item.name }}</strong>
+                </button>
+            </h2>
+            <div id="collapse{{ item.n }}" class="accordion-collapse collapse" aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                    
+                    {% if {{item.nbr_content}} == 4 %}
+                        <ul>
+                            {{item.content1}}
+                            <br><br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                            <br>
+                            {{item.content4}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 3 %}
+                        <ul>
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                            <br>
+                            <br>
+                            {{item.content3}}
+                            <br>
+                        </ul>
+                    {% elsif {{item.nbr_content}} == 2 %}  
+                        <ul>                
+                            {{item.content1}}
+                            <br>
+                            <br>
+                            {{item.content2}}
+                        </ul>
+                    {% else %}
+                        <ul>
+                            {{item.content1}}  
+                            <br>
+                        </ul>
+                    {% endif %} 
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+    
+{% endif %}
+
