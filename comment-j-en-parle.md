@@ -49,7 +49,7 @@ permalink: /comment-j-en-parle/
     <div class="container">
         <h2 class="mb-56"><span>Les comptes Instagram qui te conseillent</span></h2>
         <div class="row mb-50">
-            <div class="">
+            <div >
                 <h3>Quels comptes suivrent ?</h3>
                 <p>Voici la liste des comptes super cools ! Ils te donnent des informations, des conseils et te permettent de suivre l’actualité de la maladie simplement. Tu peux montrer ces comptes à ton entourage pour les aider à comprendre ce qu’il t’arrive</p>
             </div>

@@ -148,7 +148,7 @@ bgimg: commentjenparle_tel.jpg
     </div>
 </section>
 
-<section class="sources">
+<section class="sources section">
     <div class="container">
         <div class="row">
             <h3>Nos sources sympas</h3>
