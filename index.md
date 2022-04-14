@@ -62,6 +62,4 @@ title: Bouillotte & Culotte
 </section>
 <section class="section">
     {% include testimonials-endogirls.html %}
-</div>
-
-
+</section>
