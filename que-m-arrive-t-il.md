@@ -5,7 +5,7 @@ layout: default
 permalink: /comprendre-la-maladie/
 ---
 
-<section class="sources">
+<section class="sources section">
     <div class="container">
         <div class="row">
             <h3>Sommaire</h3>
@@ -19,7 +19,7 @@ permalink: /comprendre-la-maladie/
     </div>
 </section>
 
-<section id="sect1">
+<section id="sect1" class="section">
     <div class="container">
         <h2><span>Le fonctionnement de mon corps</span></h2>
         <div class="row d-flex justify-content-lg-between">
@@ -32,7 +32,7 @@ permalink: /comprendre-la-maladie/
     </div>
 </section>
 
-<section id="sect2">
+<section id="sect2" class="section">
     <div class="container">
         <h2><span>Les principaux symptômes</span></h2>
         <div class="row d-flex justify-content-lg-between">
@@ -54,9 +54,9 @@ permalink: /comprendre-la-maladie/
         </div>
     </div>
 </section>
-<section id="sect3">
+<section id="sect3" class="section">
     <div class="container">
-        <h2><span>Apaiser les douleurs</span></h2>
+        <h2 class="mb-56"><span>Apaiser les douleurs</span></h2>
         <div class="row d-flex justify-content-lg-between">
             <div class="col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
@@ -72,7 +72,7 @@ permalink: /comprendre-la-maladie/
     </div>
 </section>
 
-<section id="sect4" class="cta-soutien mb-lg-75 mt-lg-75">
+<section id="sect4" class="cta-soutien section bg-violet">
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="order-1 order-lg-2 col-12 col-lg-6 mb-lg-0">
@@ -88,7 +88,7 @@ permalink: /comprendre-la-maladie/
     </div>
 </section>
 
-<section class="sources">
+<section class="sources section">
     <div class="container">
         <div class="row">
             <h3>Nos sources sympas</h3>

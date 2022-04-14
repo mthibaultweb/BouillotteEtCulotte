@@ -5,11 +5,10 @@ layout: default
 permalink: /apaiser-les-douleurs/
 ---
 
-<section id="section">
+<section id="section" class="section">
     <div class="container">
-        <div class="">
-            <h2><span>Les médecins et les astuces qui m’aident</span></h2>
-            <div class="row d-flex justify-content-between mt-75 mb-50 mb-lg-75">
+            <h2 class="mb-56"><span>Les médecins et les astuces qui m’aident</span></h2>
+            <div class="row d-flex justify-content-between mb-72">
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
                 </div>
@@ -19,7 +18,7 @@ permalink: /apaiser-les-douleurs/
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Je consulte un médecin</a>
                 </div>
             </div>
-            <div class="row d-flex justify-content-between mb-lg-75">
+            <div class="row d-flex justify-content-between">
                 <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
                 </div>
@@ -29,21 +28,13 @@ permalink: /apaiser-les-douleurs/
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Ça me soulage</a>
                 </div>
             </div>
-        </div>
     </div>
 </section>
-<section class="mt-125 mb-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <h2 class="mb-4"><span>Elles partagent leur expériences</span></h2>
-                <p class="col-lg-10 mt-75 mb-5">Tu souhaites <b>connaître l’expérience</b> des femmes concernées ? Tu aimerais savoir si tu n’es <b>pas la seule</b> dans cette situation ? Tu aimerais te sentir comprise ? Des femmes ont accepté de <b>témoigner pour partager</b> leurs expériences et leurs ressentis.</p>
-            </div>
-        </div>
-    </div>
+<section class="section">
+    
     {% include testimonials-endogirls.html %}
 </section>
-<section class="sources">
+<section class="sources section">
     <div class="container">
         <div class="row">
             <h3>Nos sources sympas</h3>
