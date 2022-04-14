@@ -1,0 +1,24 @@
+- title-reponse: "Le relou & le prude"
+  description: "Ce ne sont pas les mêmes profils mais ils font le même type de remarque, ce sont les pros du malaise, et des remarques qu’on a plus envie d’entendre !"
+  avatar-question:
+  question: "Alors t’as des problèmes de filles / c’est dégueu ?"
+  avatar-reponse:
+  reponse: "Un p’tit mot doux : Oui une semaine par mois comme toutes les filles, petite nature."
+- title-reponse: "Le curieux"
+  description: "Il n’est pas méchant mais il ne sait pas trop ce qu’il t’arrive, il ne reste plus qu’à éclairer sa lanterne."
+  avatar-question:
+  question: "Tu peux mourir d’endométriose ?"
+  avatar-reponse:
+  reponse: "Apprentie ambassadrice : C’est une maladie bénigne, 1 femme sur 10 est atteinte d’endométriose en France, alors c’est douloureux mais non on ne peut pas mourir."
+- title-reponse: "Le culpabilisateur"
+  description: "Ce sacré personnage te fait bien sentir que c’est ta faute, pour lui c’est toi le problème, c’est le relou++ quoi."
+  avatar-question:
+  question: "Tu pourrais faire plus d’efforts !"
+  avatar-reponse:
+  reponse: "Explication factuelle : La maladie est un réel effort. J’ai accepté de remplacer des activités physiques par d’autres, de chercher différents traitements en sachant que tout ne fonctionnera pas, d’adapter mon quotidien… "
+- title-reponse: "L'incrédule"
+  description: "Lui, il ne te croit pas. Pour lui tu en fais trop, tu exagères, tu fais la chochotte."
+  avatar-question:
+  question: "’es pas la première à avoir mal, pourquoi faire ton cinéma ?"
+  avatar-reponse:
+  reponse: "Chaque cycle est différent. J’ai mal, je souffre de vomissements ou d’évanouissements, ou de violentes crampes d’estomac et ça c’est réel et ce n’est pas normal."
