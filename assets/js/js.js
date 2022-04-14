@@ -1,6 +1,7 @@
 let header = document.querySelector('.navbar');
 let navbarBrand = document.querySelector('.navbar-brand');
 let body = document.querySelector('body');
+let logoSite = document.querySelector('#logo-site');
 
 function logo() {
     if (window.scrollY == 0) {
@@ -14,7 +15,9 @@ function logo() {
 window.addEventListener('scroll', function() {
     if (window.scrollY > 0) {
         body.classList.add('scroll-active');
+        logoSite.setAttribute('src', '/assets/images/logo-reduit.svg');
     } else {
         body.classList.remove('scroll-active');
+        logoSite.setAttribute('src', '/assets/images/logo-bouillotteetculotte.svg');
     }
 })

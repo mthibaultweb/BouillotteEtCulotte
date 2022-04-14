@@ -8,6 +8,8 @@
     top: 0;
     width: 100%;
     z-index: 1050;
+    transition: all .3s;
+    height: 100px;
     .nav-item {
 
         &:hover .dropdown-content {
@@ -37,6 +39,10 @@ body.homepage.scroll-active .navbar {
     background-color: $white;
 }
 
+body.scroll-active .navbar {
+    height: 70px;
+}
+
 .navbar-light .navbar-toggler {
     border: none;
 }
@@ -52,6 +58,11 @@ body.homepage.scroll-active .navbar {
     transition: .3s;
     line-height: 150%;
 
+}
+
+#logo-site {
+    -webkit-transition: all 3s;
+    transition: all 3s;
 }
 
 @media screen and (max-width: 991px){
@@ -130,8 +141,8 @@ body.homepage.scroll-active .navbar {
         align-items: center;
     }
 }
-@media screen and (min-width: 1200px){
-    #header .nav-link {
-        margin: 0 1.5rem;
-    }
-}
+// @media screen and (min-width: 1200px){
+//     #header .nav-link {
+//         margin: 0 1.5rem;
+//     }
+// }
