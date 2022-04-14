@@ -57,9 +57,11 @@ title: Bouillotte & Culotte
         </div>
     </div>
 </section>
+<section class="section cta-soutien bg-violet">
 {% include cta-soutien.html %}
+</section>
 <section class="section">
     {% include testimonials-endogirls.html %}
-</section>
+</div>
 
 

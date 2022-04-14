@@ -11,7 +11,7 @@ permalink: /comprendre-la-maladie/
             <h3>Sommaire</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
                 <li><a href="#sect1">Le fonctionnement de mon corps</a></li>
-                <li><a href="#sect2">L’endométriose au quotidien</a></li>
+                <li><a href="#sect2">Les principaux symptômes</a></li>
                 <li><a href="#sect3">Apaiser les douleurs</a></li>
                 <li><a href="#sect4">Accompagner une endogirl</a></li>
             </ul>
@@ -73,19 +73,7 @@ permalink: /comprendre-la-maladie/
 </section>
 
 <section id="sect4" class="cta-soutien section bg-violet">
-    <div class="container">
-        <div class="row d-flex justify-content-between">
-            <div class="order-1 order-lg-2 col-12 col-lg-6 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/soutien_homepage.png" | relative_url }}" alt="" >
-            </div>
-            <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column">
-                <h2 class=" mb-4 mb-lg-5"><span>Accompagner une endogirl</span></h2>
-                <h3 class="titre_sommaire_accueil">Comment soutenir ?</h3>
-                <p class="card-text">Si tu veux savoir comment aider l’une de tes proches qui est atteinte d’endométriose, alors tu es au bon endroit. </p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Devenir un allié</a>
-            </div>
-        </div>
-    </div>
+   {% include cta-soutien.html %}
 </section>
 
 <section class="sources section">
