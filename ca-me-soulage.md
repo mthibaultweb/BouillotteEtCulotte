@@ -56,37 +56,33 @@ parentLink: /apaiser-les-douleurs/
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
+                    <h3>Défile les bouillottes</h3>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/assets/images/Fausse_image.jpg" class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>L'originelle</b></p>
                                 <p>La plus connue, simple et efficace. Aussi appelée bouillotte à eau, elle dégage de la chaleur qui détend tes muscles et donc atténue tes douleurs.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/soutien_homepage.png" class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte longue</b></p>
                                 <p>Grâce à sa longueur tu peux t’enrouler de dedans. Elle contient souvent 2L d’eau chaude, et conservera donc la chaleur plus longtemps. Pour te réchauffer dans ton lit.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/soutien_homepage.png" class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte sèche</b></p>
                                 <p>Rembourrée avec différentes graines comme du riz ou du blé, elle diffuse une chaleur douce et une odeur agréable.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/soutien_homepage.png" class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte ceinture</b></p>
                                 <p>Elle tient chaud à ton ventre et tes reins ou tes cuisses. Tu peux y mettre de l’eau chaude (ou des glaçons si tu préfères) et te ballader librement dans ta maison.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/assets/images/soutien_homepage.png" class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La swag</b></p>
                                 <p>Proche cousine de la bouillotte à eau, la bouillotte swag est souvent bien habillée. Tu peux rajouter une housse en pilou-pilou ou une housse rigolote sur ta bouillotte habituelle pour des règles plus stylées.</p>
