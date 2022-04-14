@@ -1,6 +1,9 @@
 ---
 ---
 
+@import "abstracts/variables";
+@import "vendors/bootstrap";
+
 @import "base";
 @import "header";
 @import "main";
@@ -9,4 +12,5 @@
 @import "recos-medecins";
 @import "accordion";
 @import "banner";
-@import "carousel";
+
+@import "components/carousel";
