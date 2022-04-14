@@ -3,6 +3,8 @@ title: J'ouvre le dialogue
 subtitle: Comment j'en parle ?
 layout: default
 permalink: /comment-j-en-parle/
+parentTitle: Libérer la parole
+parentLink: /liberer-la-parole/
 ---
 <section class="sources section">
     <div class="container">

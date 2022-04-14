@@ -4,6 +4,8 @@ subtitle: Comment me diagnostiquer ?
 layout: default
 permalink: /ils-peuvent-m-aider/
 bgimg: commentjenparle_tel.jpg
+parentTitle: Apaiser mes douleurs
+parentLink: /apaiser-les-douleurs/
 ---
 
 <section class="section">
