@@ -12,6 +12,21 @@ body {
     }
 }
 
+.devenir-un-allie #main {
+    h3, a{
+        color: $secondary;
+    }
+    h2 span{
+        background-image: linear-gradient(to right, $secondary 0%, $secondary 100%) ;
+    }
+    li span{
+        color: $secondary;
+        font-weight: 800;
+    }
+    .btn{
+        color: $dark;
+    }
+}   
 
 /* --------------- Titre accueil --------------- */
 
@@ -178,6 +193,8 @@ body {
     } 
 }
 
+
+
 .sources {
     font-weight: 300;
 
@@ -197,4 +214,67 @@ body {
             margin-top: 2rem;
         }
     } 
+}
+
+
+/*<---------------devenir un allie---------------*/
+
+.liste_soutien{
+    margin-bottom: 0;
+    li{
+        position: relative;
+        list-style-type: none;
+        padding-left: 40px;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url(/assets/images/check_box.svg);
+            left: 0px;
+            top:4px;
+            width: 35px;
+            height: 30px;
+            background-repeat: no-repeat;
+            @media screen and (min-width:920px){
+                top:5px;
+            }
+        }
+    }
+}
+
+ol{
+    list-style-type: none;
+    @media screen and (min-width: 920px){
+        padding-top: 9rem;
+    }
+    li{
+        text-align: center;
+        position: relative;
+       
+    }
+}
+
+
+.list-group-numbered > li::before{
+    content: counters(section, ".");
+    counter-increment: section;
+    position: absolute;
+    top: -20px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: $violet;
+    font-weight: 700;
+    @media screen and (min-width: 920px){
+        top: -35px;
+        left: 50%;
+        font-size: 80px;
+        
+    }
+    
+}
+
+.list-group-item{
+    border: none;
+    background-color: transparent;
+
 }

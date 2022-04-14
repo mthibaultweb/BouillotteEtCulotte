@@ -9,21 +9,31 @@
 
     <link rel="stylesheet" href="{{ " /assets/css/bootstrap.min.css " | relative_url }}" />
     <link rel="stylesheet" href="{{ " /assets/css/styles.css " | relative_url }}">
+
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
 </head>
 
-<body id="body" class="bg-blanc">
+{% if page.url == "/devenir-un-allie/" %}
+<body id="body" class="bg-blanc devenir-un-allie">
+{%else%}
+<body id="body" class="bg-blanc"></body>
+{%endif%}
     {% include header.html %}
     {% if page.url != '/' %}
     {% include banner.html %}
     {% endif %}
     <main id="main" >
         <article>
-            <div class="container">
+            
                 {{ content }}
-            </div>
+            
         </article>
     </main>
     {% include footer.html %}
+
 
     <script src="{{ " /assets/js/bootstrap.min.js " | relative_url }}"></script>
     <script src="{{ " /assets/js/js.js " | relative_url }}"></script>
