@@ -7,4 +7,4 @@
 `bundle install`
 
 ## Pour installer les packages (bootstrap)
-`yarn` ou `npm install`
+`npm install`
