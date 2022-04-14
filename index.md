@@ -32,7 +32,7 @@ title: Bouillotte & Culotte
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive t-il ?</h3>
                 <p class="card-text">Ici, on t’explique comment fonctionne ton utérus, ton <b>cycle menstruel</b> et l’endométriose. Nous t’avons aussi listé les principaux <b>symptômes</b> de cette maladie.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Découvrir les symptômes</a>
+                <a href="/comprendre-la-maladie/" class="btn btn-primary">Découvrir les symptômes</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between mb-72">
@@ -42,7 +42,7 @@ title: Bouillotte & Culotte
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment en parler ?</h3>
                 <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses <b>proches</b>. Voici quelques <b>conseils</b> pour expliquer ce qu’il t’arrive et <b>répondre</b> aux questions indiscrètes de certains.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Libérer la parole</a>
+                <a href="/liberer-la-parole/" class="btn btn-primary">Libérer la parole</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between">
@@ -52,7 +52,7 @@ title: Bouillotte & Culotte
             <div class="order-2 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
                 <p class="card-text">Vivre avec une <b>douleur insoutenable</b> est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques <b>astuces</b> pour calmer ta douleur.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
+                <a href="/apaiser-les-douleurs/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
         </div>
     </div>
