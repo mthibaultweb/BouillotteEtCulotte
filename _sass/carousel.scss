@@ -1,0 +1,16 @@
+.carousel-caption{
+    position: initial;
+    color: $dark;
+}
+
+.carousel-indicators{
+    bottom: -12px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: $rose;
+    border: none;
+    border-radius: 200px;
+    width: 10px;
+    height: 10px;
+}
