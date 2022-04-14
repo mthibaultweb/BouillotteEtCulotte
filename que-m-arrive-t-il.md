@@ -36,11 +36,11 @@ permalink: /comprendre-la-maladie/
     <div class="container">
         <h2><span>Les principaux symptômes</span></h2>
         <div class="row d-flex justify-content-lg-between">
-            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/que-m-arrive-t-il.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Les principaux symptômes</h3>
                 <p>L’endométriose est une maladie complexe. Il est important de garder à l’esprit que toutes les femmes n’ont pas toutes les mêmes symptômes. Si tu as le moindre soupçon, n’hésite pas à consulter un médecin spécialiste qui saura répondre à tes questions. Voici une liste non-exhaustive des symptômes que peut provoquer l’endométriose.</p>
             </div>
+            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/que-m-arrive-t-il.jpg">
         </div>
         {% include accordion.html %}
         <div class="row d-flex justify-content-lg-between ">

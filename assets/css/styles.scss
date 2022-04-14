@@ -1,6 +1,9 @@
 ---
 ---
 
+@import "abstracts/variables";
+@import "vendors/bootstrap";
+
 @import "base";
 @import "header";
 @import "main";
@@ -11,3 +14,5 @@
 @import "banner";
 @import "carousel";
 @import "reponse";
+
+@import "components/carousel";

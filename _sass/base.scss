@@ -3,21 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* --------------- Colors --------------- */
-
-$primary: #ffe482;
-$primary2: #FFC700;
-$primary3: #ffd84d;
-$secondary: #9101A9;
-$secondary2: #660176;
-$secondary80: #a734ba;
-$secondary40:  rgba(145, 1, 129, 0.2);
-$rose:#e4117B;
-$rose40: rgba(228, 17, 123, 0.2);
-$dark: #17010C;
-$white: #fdfdfd;
-$fuschia: #a81d62;
-$violet: #EFCCF4;
 
 /* --------------- Backgrounds --------------- */
 
@@ -77,7 +62,7 @@ h1, .h1 {
 
     @media screen and (min-width: 1200px) {
         font-size: 2.5rem;
-    } 
+    }
 }
 
 h2, .h2 {
@@ -120,12 +105,23 @@ h3, .h3 {
     }
 }
 
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: italic;
+    @media screen and (min-width:991px) {
+        font-size: 18px;
+    }
+}
+
 p {
     font-weight: 300;
     font-size: 1rem;
     @media screen and (min-width: 991px){
         font-size: 1.125rem;
-    }  
+    }
 }
 
 b, strong {
@@ -155,7 +151,6 @@ b, strong {
 /* --------------- Buttons --------------- */
 
 .btn {
-    padding: 6px 25px;
     border-radius: 30px;
     font-size: 1rem;
     width: fit-content;
@@ -167,7 +162,7 @@ b, strong {
     border-color: $primary;
     color: $dark;
     line-height: 110%;
-    
+
     &:hover{
         background-color: $primary2;
         color: $dark;
@@ -185,31 +180,5 @@ b, strong {
         background-color: $primary2;
         color: $dark;
         border-color: $primary2;
-    }
-}
-
-.btn-secondary {
-    background-color: $secondary;
-    border-color: $secondary;
-    color: $white;
-    line-height: 110%;
-
-    &:hover{
-        background-color: $secondary2;
-        border-color: $secondary2;
-        color: $white;
-    }
-
-    &:focus {
-        color: $white;
-        background-color: $secondary2;
-        border-color: $secondary2;
-        box-shadow: 0 0 0 0.25rem rgb(145, 1, 69 / 50%);
-    }
-
-    &:active, &.active {
-        background-color: $secondary80;
-        border-color: $secondary80;
-        color: $white;
     }
 }

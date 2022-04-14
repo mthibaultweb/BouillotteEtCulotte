@@ -15,7 +15,7 @@ permalink: /apaiser-les-douleurs/
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Qui peut me diagnostiquer ?</h3>
                     <p class="card-text">Poser un diagnostic sur ce qu’il t’arrive est très important. Cela va t’aider à te sentir légitime et tu n’auras plus l’impression d’être seule. Les professionnels de santé sont là pour ça.</p>
-                    <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Je consulte un médecin</a>
+                    <a href="/ils-peuvent-m-aider/" class="btn btn-primary btn-sm">Je consulte un médecin</a>
                 </div>
             </div>
             <div class="row d-flex justify-content-between">
@@ -25,7 +25,7 @@ permalink: /apaiser-les-douleurs/
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment  diminuer mes douleurs ?</h3>
                     <p class="card-text">Ici, tu retrouves des astuces qui t’aide à atténuer tes douleurs au quotidien : médecine douce, protections hygiéniques, bouillottes etc.</p>
-                    <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Ça me soulage</a>
+                    <a href="/ca-me-soulage/" class="btn btn-primary btn-sm">Ça me soulage</a>
                 </div>
             </div>
     </div>
