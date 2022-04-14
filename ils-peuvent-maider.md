@@ -20,22 +20,22 @@ bgimg: commentjenparle_tel.jpg
             <h3>Les professionnels de santé</h3>
             <div class="col-lg-3 d-flex justify-content-start flex-column">
                 <img src="/assets/images/interrogation_homepage.jpg">
-                <h4>Infirmière scolaire</h4>
+                <h4 class="text-center">Infirmière scolaire</h4>
                 <p>Elle n’est pas en mesure de te diagnostiquer, mais elle peut t’écouter, te donner des conseils et t’orienter vers des professionnels qualifiés.</p>
             </div>
             <div class="col-lg-3 d-flex justify-content-start flex-column">
                 <img src="/assets/images/interrogation_homepage.jpg">
-                <h4>Médecin Généraliste</h4>
+                <h4 class="text-center">Médecin Généraliste</h4>
                 <p>Tu as surement un généraliste que tu connais. Il est à même de t’orienter vers un spécialiste et te prescrire des examens ou des médicaments. </p>
             </div>
             <div class="col-lg-3 d-flex justify-content-start flex-column">
                 <img src="/assets/images/interrogation_homepage.jpg">
-                <h4>Gynécologue</h4>
+                <h4 class="text-center">Gynécologue</h4>
                 <p>C’est le spécialiste de ton appareil génital. Il t’apportera des solutions plus précises et te guidera vers des examens plus poussé.</p>
             </div>
             <div class="col-lg-3 d-flex justify-content-start flex-column">
                 <img src="/assets/images/interrogation_homepage.jpg">
-                <h4>Chirurgien</h4>
+                <h4 class="text-center">Chirurgien</h4>
                 <p>C’est un médecin qui pourra t’accompagner dans la démarche d’une possible opération. Cela peut être nécessaire dans certains cas particuliers d’endométriose.</p>
             </div>
         </div>
@@ -67,7 +67,7 @@ bgimg: commentjenparle_tel.jpg
 
 <section class="section">
     <div class="container">
-        <h2><span>Des aides au quotidien</span></h2>
+        <h2 class="mb-56"><span>Des aides au quotidien</span></h2>
         <div class="row d-flex justify-content-between">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                 <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
