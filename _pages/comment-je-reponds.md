@@ -22,7 +22,7 @@ parentLink: /liberer-la-parole/
     <div class="container">
         <h2><span>N'aie pas peur d'en parler</span></h2>
         <div class="row d-flex justify-content-lg-between">
-            <img class="col-lg-6" src="/assets/images/content/soulager.jpg">
+            <img class="col-lg-6" src="/assets/images/content/gene.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Comment éviter d’être gênée ?</h3>
                 <p>Que ce soit tes parents, tes frères et sœurs, tes profs ou tes médecins, tout le monde ne réagira pas pareil.
@@ -39,7 +39,7 @@ parentLink: /liberer-la-parole/
                 <h3>Comment faire face aux questions ?</h3>
                 <p>Ça arrive de paniquer ou de perdre ses mots. Ici, on t’aide à savoir <b>comment réagir</b> dans ce genre de moments, ou au moins te donner des pistes qui t’aideront à te <b>sortir sans encombres</b> de ces situations délicates. </p>
             </div>
-            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/content/parler.jpg">
+            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/content/question.jpg">
         </div>
     </div>
     <div class="container">
@@ -48,10 +48,10 @@ parentLink: /liberer-la-parole/
     </div>
     <div class="container">
         <div class="row d-flex justify-content-lg-between">
-            <img class="col-lg-6" src="/assets/images/content/quoi.jpg">
+            <img class="col-lg-6" src="/assets/images/content/attention.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Attention, c'est important !</h3>
-                <p>Cette liste <b>n’est pas exhaustive</b> et ne représente pas toute la complexité du sujet. Vous pouvez vous en inspirer, mais elle </b>ne représente pas une solution absolue</b>.</p>
+                <p>Cette liste <b>n’est pas exhaustive</b> et ne représente pas toute la complexité du sujet. Vous pouvez vous en inspirer, mais elle <b>ne représente pas une solution absolue</b>.</p>
             </div>
         </div>
     </div> 
@@ -70,10 +70,7 @@ parentLink: /liberer-la-parole/
                 <li><a href="#">Santé Magazine</a></li>
                 <li><a href="#">Info-Endométriose</a></li>
             </ul>
-            <div class="d-flex">
-                <!-- <img src="#" alt="photo medecin" class="mr-1"> -->
-                <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
-            </div>
+            {% include remerciements.html %}
         </div>
     </div>
 </section>

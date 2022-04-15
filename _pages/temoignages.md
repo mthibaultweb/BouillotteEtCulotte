@@ -49,7 +49,7 @@ parentLink: /liberer-la-parole/
         <h2><span>Tous savoir sur l’endométriose</span></h2>
         <div class="row d-flex justify-content-between mb-72">
             <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="" >
+                <img class="w-100" src="{{ "/assets/images/content/quoi.jpg" | relative_url }}" alt="" >
             </div>
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive-t-il ?</h3>
