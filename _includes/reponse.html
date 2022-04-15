@@ -16,13 +16,13 @@
         </div>
 
         <div class="row d-flex justify-content-center mt-5 align-items-center">
-            <img class="col-1" src="/assets/images/le-petit-chaperon-rouge.png" alt="avatar">
+            <img class="col-1 rounded-circle" src="{{ item.avatar-question }}" alt="avatar">
             <p class="reponse2 p-3 col-7 mb-0 fw-bold fst-italic bg-secondary">{{ item.question }}</p>
         </div>
 
         <div class="row d-flex justify-content-center mb-5 mt-4 align-items-center">
             <p class="reponse2 p-3 col-7 mb-0 bg-purple">{{ item.reponse }}</p>
-            <img class="col-1" src="/assets/images/le-petit-chaperon-rouge.png" alt="avatar">
+            <img class="col-1 rounded-circle" src="{{ item.avatar-reponse }}" alt="avatar">
         </div>
     </div>
     {% endfor %}
