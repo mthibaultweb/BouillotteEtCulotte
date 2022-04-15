@@ -11,37 +11,37 @@
                 <div class="accordion-body">
                     {% if {{item.nbr_content}} == 6 %}
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2">{{item.content1}}</li>
-                            <li class="mb-2">{{item.content2}}</li>
-                            <li class="mb-2">{{item.content3}}</li>
-                            <li class="mb-2">{{item.content4}}</li>
-                            <li class="mb-2">{{item.content5}}</li>
+                            <li class="mb-3">{{item.content1}}</li>
+                            <li class="mb-3">{{item.content2}}</li>
+                            <li class="mb-3">{{item.content3}}</li>
+                            <li class="mb-3">{{item.content4}}</li>
+                            <li class="mb-3">{{item.content5}}</li>
                             <li>{{item.content6}}</li>
                         </ul>
                     {% elsif {{item.nbr_content}} == 5 %}
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2">{{item.content1}}</li>
-                            <li class="mb-2">{{item.content2}}</li>
-                            <li class="mb-2">{{item.content3}}</li>
-                            <li class="mb-2">{{item.content4}}</li>
+                            <li class="mb-3">{{item.content1}}</li>
+                            <li class="mb-3">{{item.content2}}</li>
+                            <li class="mb-3">{{item.content3}}</li>
+                            <li class="mb-3">{{item.content4}}</li>
                             <li>{{item.content5}}</li>
                         </ul>
                     {% elsif {{item.nbr_content}} == 4 %}
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2">{{item.content1}}</li>
-                            <li class="mb-2">{{item.content2}}</li>
-                            <li class="mb-2">{{item.content3}}</li>
+                            <li class="mb-3">{{item.content1}}</li>
+                            <li class="mb-3">{{item.content2}}</li>
+                            <li class="mb-3">{{item.content3}}</li>
                             <li>{{item.content4}}</li>
                         </ul>
                     {% elsif {{item.nbr_content}} == 3 %}
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2">{{item.content1}}</li>
-                            <li class="mb-2">{{item.content2}}</li>
+                            <li class="mb-3">{{item.content1}}</li>
+                            <li class="mb-3">{{item.content2}}</li>
                             <li>{{item.content3}}</li>
                         </ul>
                     {% elsif {{item.nbr_content}} == 2 %}                  
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2">{{item.content1}}</li>
+                            <li class="mb-3">{{item.content1}}</li>
                             <li>{{item.content2}}</li>
                         </ul>
                     {% else %}
@@ -54,7 +54,7 @@
         </div>
     {% endfor %}
 </div>
-{% else %}
+{% elsif page.url == "/ca-me-soulage/" %}
 <div class="accordion" id="accordionExample">
     {% for item in site.data.accordion-solutions %}
         <div class="accordion-item">
@@ -67,20 +67,20 @@
                 <div class="accordion-body">
                 {% if {{item.nbr_content}} == 4 %}
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2">{{item.content1}}</li>
-                        <li class="mb-2">{{item.content2}}</li>
-                        <li class="mb-2">{{item.content3}}</li>
+                        <li class="mb-3">{{item.content1}}</li>
+                        <li class="mb-3">{{item.content2}}</li>
+                        <li class="mb-3">{{item.content3}}</li>
                         <li>{{item.content4}}</li>
                     </ul>
                 {% elsif {{item.nbr_content}} == 3 %}
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2">{{item.content1}}</li>
-                        <li class="mb-2">{{item.content2}}</li>
+                        <li class="mb-3">{{item.content1}}</li>
+                        <li class="mb-3">{{item.content2}}</li>
                         <li>{{item.content3}}</li>
                     </ul>
                 {% elsif {{item.nbr_content}} == 2 %}                  
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2">{{item.content1}}</li>
+                        <li class="mb-3">{{item.content1}}</li>
                         <li>{{item.content2}}</li>
                     </ul>
                 {% else %}
@@ -93,6 +93,40 @@
         </div>
     {% endfor %}
 </div>
+{%else%}
+<div class="accordion" id="accordionExample">
+    {% for item in site.data.accordion-en-parler %}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading{{ item.n }}">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ item.n }}" aria-expanded="true" aria-controls="collapse{{}}">
+                    <strong>{{ item.name }}</strong>
+                </button>
+            </h2>
+            <div id="collapse{{ item.n }}" class="accordion-collapse collapse" aria-labelledby="headingOne" >
+                <div class="accordion-body">
+                {% if {{item.nbr_content}} == 6 %}
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">{{item.content1}}</li>
+                        <li class="mb-3">{{item.content2}}</li>
+                        <li class="mb-3">{{item.content3}}</li>
+                        <li class="mb-3">{{item.content4}}</li>
+                        <li class="mb-3">{{item.content5}}</li>
+                        <li>{{item.content6}}</li>
+                    </ul>
+                {% else {{item.nbr_content}} == 3 %}
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">{{item.content1}}</li>
+                        <li class="mb-3">{{item.content2}}</li>
+                        <li>{{item.content3}}</li>
+                    </ul>
+                {% endif %} 
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+    
+
     
 {% endif %}
 

@@ -52,7 +52,7 @@ title: Bouillotte & Culotte
             <div class="order-2 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
                 <p class="card-text">Vivre avec une <b>douleur insoutenable</b> est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques <b>astuces</b> pour calmer ta douleur.</p>
-                <a href="/apaiser-les-douleurs/" class="btn btn-primary">Apaiser mes douleurs</a>
+                <a href="/apaiser-mes-douleurs/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
         </div>
     </div>
