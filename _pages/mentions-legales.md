@@ -1,9 +1,7 @@
 ---
 title: Conditions Générales d'Utilisation
 subtitle: En vigueur au 15/04/2022
-
-permalink: /mentions-legales/
-bgimg:
+permalink: /conditions-generales-d-utilisation/
 ---
 
 <section class="section">
