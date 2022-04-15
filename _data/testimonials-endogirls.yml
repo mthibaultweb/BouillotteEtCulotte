@@ -1,49 +1,40 @@
-- name: 'Sahana'
-  age: '20 ans'
+- name: '<b>Noémie</b>'
+  age: '18 ans'
   status: 'diagnostiquée'
-  testimony: "Sahana, j’ai 20 ans, et depuis maintenant 4 ans je suis atteinte d'endométriose, et également du syndrome des ovaires polykystiques."
-- name: 'Mihana'
+  testimony: "J’ai particulièrement trouvé du soutien et de la compréhension chez des sages-femmes, le planning familial (c’est un ensemble d’associations en France qui défendent l'accès aux droits à la santé sexuelle et reproductifs) et même ma prof de SVT, qui m’a bien conseillée."
+- name: '<b>Mihana</b>'
   age: '19 ans'
   status: 'en cours de diagnostic'
   testimony: 'Ça a commencé par des douleurs au ventre durant les règles, puis hors règles et au bout de deux ans s’est développée une "douleur de fond".'
-- name: 'Caroline'
+- name: '<b>Caroline</b>'
   age: '22 ans'
   status: 'diagnostiquée'
   testimony: "J’ai réalisé que quelque chose n'était pas normal à 19 ans, au début ça allait mais la douleur est devenue de plus en plus intense. C’est là que j’ai commencé à en parler."
-- name: 'Elsa'
-  age: '19 ans'
-  status: 'diagnostiquée'
-  testimony: "J’ai découvert le problème à cause de nodules dans le nombril, il y a deux ans (j’avais 28/29 ans), mais j’en souffre depuis toute petite."
-- name: 'Eva'
-  age: '20 ans'
-  status: 'diagnostiquée'
-  testimony: "Je me suis rendue compte que ce n’était pas normal au moment où j'étais plus que fatiguée, j’avais tellement mal que je n’arrivais pas à bouger."
-- name: 'Aliénor'
+- name: '<b>Aliénor</b>'
   age: '18 ans'
   status: 'diagnostiquée'
   testimony: "Pendant longtemps on m'a dit que c'était les règles, qu'on avait mal et que c'était normal."
-- name: 'Emma'
+- name: '<b>Sylvie</b>'
+  age: '56 ans'
+  status: "maman d'une endogirl"
+  testimony: "Mon conseil pour les proches serait de montrer qu’on est là. Son père s'est montré super supportif, il prend du temps sur son travail et l'accompgane à certains rdv. Je fais aussi partie d’un groupe whatsapp de sa ville où on m'a conseillé un gynéco sensibilisé "
+- name: '<b>Eva</b>'
   age: '20 ans'
-  status: 'en cours de diagnostic'
-  testimony: >
-    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat. -
-    Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-
-- name: 'Louise'
-  age: '26 ans'
-  status: 'Diagnostiquée'
-  testimony: 'Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.'
-- name: 'Karine'
-  age: '35 ans'
-  status: 'en cours de diagnostic'
-  testimony: 'Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.
-  Lörem ipsum prenat sahende prer tills ongen. Kasm nipp euryss. Rer nyr låpudys decibysa fygt om än nedat.'
+  status: 'diagnostiquée'
+  testimony: "Je me suis rendue compte que ce n’était pas normal au moment où j'étais plus que fatiguée, j’avais tellement mal que je n’arrivais pas à bouger."
+- name: '<b>Candice</b>'
+  age: '19 ans'
+  status: 'diagnostiquée'
+  testimony: "Je me suis dirigée vers un organisme spécialisé qui peut aider à réguler sa douleur : ' Point Gyn '. Ils m'ont proposé un suivi par un gynécologue, un ostéopathe et une diététicienne pendant 6 mois. Je travaille sur ma douleur au ventre, mon alimentation et de potentiels examens à faire."
+- name: '<b>Elsa</b>'
+  age: '31 ans'
+  status: 'diagnostiquée'
+  testimony: "J’ai découvert le problème à cause de nodules dans le nombril, il y a deux ans (j’avais 28/29 ans), mais j’en souffre depuis toute petite."
+- name: '<b>Lucie</b>'
+  age: '18 ans'
+  status: 'diagnostiquée'
+  testimony: "Mon conseil c’est que si les médicaments ne suffisent pas à atténuer ta douleur, il faut en parler et il ne faut pas se sentir faible d’avoir mal malgré les personnes qui diront 'mais c’est rien, t’abuses'"
+- name: '<b>Quentin</b>'
+  age: '19 ans'
+  status: "frère d'une endogirl"
+  testimony: "Ne connaissant que approximativement la maladie, j’ai juste essayé de l’aider dans les moments compliqués mais encore une fois sans vraiment comprendre en détail ce qu’elle avait."

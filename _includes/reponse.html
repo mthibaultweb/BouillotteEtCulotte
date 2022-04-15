@@ -1,0 +1,29 @@
+<div class="reponse container">
+
+    {% for item in site.data.reponse %}
+
+    <h4>{{ item.title-reponse }}</h4>
+    <p class="mb-56">{{ item.description }}</p>
+
+    <div class="cadre d-block mx-auto w-lg-75 w-100 border border-dark border-3 h-100 mb-72 ">
+        <div class="minicadre d-flex border-bottom border-3 border-dark p-1">
+            <svg class="d-block" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
+                <circle cx="12" cy="12" r="12" fill="#E4117B"/>
+                <line x1="5.72168" y1="5.5591" x2="18.3726" y2="18.3641" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round"/>
+                <line x1="18.3643" y1="5.63589" x2="5.63608" y2="18.3641" stroke="#FDFDFD" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <span class="d-flex mx-auto">{{ item.title-reponse}}</span>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5 align-items-center mx-1 mx-lg-0">
+            <img class="col-lg-1 col-3 rounded-circle " src="{{ item.avatar-question }}" alt="avatar">
+            <p class="reponse2 p-3 col-8 col-lg-7 mb-0 fw-bold fst-italic bg-secondary">{{ item.question }}</p>
+        </div>
+
+        <div class="row d-flex justify-content-center mb-5 mt-4 align-items-center mx-lg-0 mx-1">
+            <p class="reponse2 p-3 col-8 col-lg-7 mb-0 bg-purple">{{ item.reponse }}</p>
+            <img class="col-lg-1 col-3 rounded-circle" src="{{ item.avatar-reponse }}" alt="avatar">
+        </div>
+    </div>
+    {% endfor %}
+</div>

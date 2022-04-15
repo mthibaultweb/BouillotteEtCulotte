@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    margin-bottom: 1.25rem;
+    margin-top: 2.5rem;
+
+    .blockquote {
+        font-size: 1.125rem;
+        margin-bottom: 1.25rem;
+    }
+    .blockquote-author {
+        font-size: .875rem;
+        cite {
+            font-style: normal;
+        }
+    }
+    .guillemets-haut{
+        position: absolute;
+        left: 1.25rem; 
+        top: -2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .testimonials-bottom-page {
+        .card {
+            margin-top: -2.5rem; 
+        }   
+    }
+}
+

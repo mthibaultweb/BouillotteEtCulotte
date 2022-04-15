@@ -15,6 +15,9 @@
 .bg-violet {
     background-color:  $violet;
 }
+.bg-secondaire {
+    background-color:  $secondary;
+}
 
 /* --------------- Sections --------------- */
 
@@ -99,6 +102,17 @@ h3, .h3 {
 
     @media screen and (min-width: 1200px) {
         font-size: 1.75rem;
+    }
+}
+
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: italic;
+    @media screen and (min-width:991px) {
+        font-size: 18px;
     }
 }
 

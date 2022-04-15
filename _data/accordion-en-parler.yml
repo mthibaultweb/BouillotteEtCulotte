@@ -1,0 +1,31 @@
+
+- name: Conseils pour en parler à ta famille
+  n: One
+  nbr_content: 6
+  content1: "- <b>parle à coeur ouvert</b>, n’aie pas honte, t’inquiète, ils seront là pour toi "
+  content2: "- explique tes douleurs et tes frustrations (ça fait du bien ;))"
+  content3: "- dis quand tu souffres, c’est le meilleur moment pour qu’ils t’aident et te comprennent"
+  content4: "- tu peux aussi leur demander de <b>prévenir ton établissement scolaire</b>, afin de mettre en place des solutions adaptées "
+  content5: "- si besoin tu peux leur demander de <b>prendre rendez-vous</b> chez le gynécologue ou d’autres professionnels de santé"
+  content6: " “Parles-en sans gêne et ne néglige aucune de tes douleurs” - Géraldine, 43 ans"
+
+- name: Conseils pour en parler aux professionnels de santé
+  n: Two
+  nbr_content: 3
+  content1: "- ne te cache pas, <b>sois transparente</b> sur tes symptômes et ne mets pas de filtre afin de bien te faire diagnostiquer (endométriose ou pas)"
+  content2: "- tu n’auras peut-être plus mal au moment de décrire tes symptômes mais ça ne veut pas dire que ta douleur n’est pas valide ou que tu exagères"
+  content3: "- bien <b>poser toutes les questions</b> qui te viennent à l’esprit, un professionnel n’est pas là pour te juger, au contraire"
+
+- name: Conseils pour en parler à tes potes
+  n: Three
+  nbr_content: 3
+  content1: "- utilise des <b>termes simples</b> qu’ils peuvent comprendre"
+  content2: "- n’hésite pas à leur <b>expliquer</b> ce dont tu as besoin pour aller mieux"
+  content3: "- <b>pas de pression</b> si la conversation devient inconfortable ou si les gens sont moqueurs, <b>ne t’acharne pas</b>. Ce n’est pas la peine de te fatiguer. Ce n’est peut-être pas le bon moment"
+
+- name: Conseil pour en parler à tes profs
+  n: Four
+  nbr_content: 3
+  content1: "- prends un petit moment pour leur expliquer que tu souffres réellement"
+  content2: "- si tu dois t'absenter, demande leur de <b>mettre en place des solutions</b> pour continuer à suivre les cours"
+  content3: "- si tu as vraiment mal, n’hésite pas à le dire à ton prof, même en plein cours"
