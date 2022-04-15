@@ -1,7 +1,7 @@
-- name: 'Sahana'
-  age: '20 ans'
+- name: 'Noémie'
+  age: '18 ans'
   status: 'diagnostiquée'
-  testimony: "Sahana, j’ai 20 ans, et depuis maintenant 4 ans je suis atteinte d'endométriose, et également du syndrome des ovaires polykystiques."
+  testimony: "J’ai particulièrement trouvé du soutien et de la compréhension chez des sages-femmes, le planning familial (c’est un ensemble d’associations en France qui défendent l'accès aux droits à la santé sexuelle et reproductifs) et même ma prof de SVT, qui m’a bien conseillée."
 - name: 'Mihana'
   age: '19 ans'
   status: 'en cours de diagnostic'

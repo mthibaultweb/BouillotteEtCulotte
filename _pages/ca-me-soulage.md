@@ -4,7 +4,7 @@ subtitle: Comment diminuer mes douleurs ?
 permalink: /ca-me-soulage/
 bgimg:
 parentTitle: Apaiser mes douleurs
-parentLink: /apaiser-les-douleurs/
+parentLink: /apaiser-mes-douleurs/
 ---
 
 {% include afinir.html %}
@@ -29,7 +29,7 @@ parentLink: /apaiser-les-douleurs/
             <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Y’a du choix !</h3>
-                <p>Retiens surtout que ta protection c’est ton choix, donc tu dois prendre ce qui te convient le mieux. Il n’y a pas de moins bien ou de meilleur, choisis ce qui correspond à ton corps. Pour t’accompagner dans ton choix, voici une petite liste non exhaustive de protections hygiéniques :</p>
+                <p>Retiens surtout que ta protection c’est <b>ton choix</b>, donc tu dois prendre ce qui te <b>convient le mieux</b>. Il n’y a pas de moins bien ou de meilleur, choisis ce qui correspond à ton corps. Pour t’accompagner dans ton choix, voici une petite <b>liste non exhaustive de protections hygiéniques</b> :</p>
             </div>
         </div>
          {% include accordion.html %}
@@ -43,10 +43,10 @@ parentLink: /apaiser-les-douleurs/
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <div class="mb-72">
                     <h3>La magie des bouillottes </h3>
-                    <p>Comme tu le sais sûrement, les règles c’est jamais très agréable. Il faut savoir qu’une de tes meilleurs alliés c’est la bouillotte. Et oui, elle peut t’aider à atténuer tes douleurs, car on le sait la chaleur permet de détendre les muscles et donc de relâcher la pression. </p>
+                    <p>Comme tu le sais sûrement, les règles c’est jamais très agréable. Il faut savoir qu’une de tes meilleurs alliés c’est <b>la bouillotte</b>. Et oui, elle peut t’aider à atténuer tes douleurs, car on le sait <b>la chaleur</b> permet de <b>détendre les muscles</b> et donc de relâcher la pression. </p>
                 </div>
                 <h3>Attention !</h3>
-                <p>Pas plus de 30 minutes au-delà de 40°C.</p>
+                <p>Pas plus de <b>30 minutes</b> au-delà de <b>40°C.</b></p>
             </div>
             <div class="col-lg-5 d-flex justify-content-start flex-column">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
@@ -62,31 +62,31 @@ parentLink: /apaiser-les-douleurs/
                         <div class="carousel-item active">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>L'originelle</b></p>
-                                <p>La plus connue, simple et efficace. Aussi appelée bouillotte à eau, elle dégage de la chaleur qui détend tes muscles et donc atténue tes douleurs.</p>
+                                <p>La plus connue, simple et efficace. Aussi appelée <b>bouillotte à eau</b>, elle dégage de la chaleur qui détend tes muscles et donc atténue tes douleurs.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte longue</b></p>
-                                <p>Grâce à sa longueur tu peux t’enrouler de dedans. Elle contient souvent 2L d’eau chaude, et conservera donc la chaleur plus longtemps. Pour te réchauffer dans ton lit.</p>
+                                <p>Grâce à sa longueur tu peux <b>t’enrouler de dedans</b>. Elle contient souvent 2L d’eau chaude, et conservera donc la chaleur plus longtemps. Pour te <b>réchauffer</b> dans ton lit.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte sèche</b></p>
-                                <p>Rembourrée avec différentes graines comme du riz ou du blé, elle diffuse une chaleur douce et une odeur agréable.</p>
+                                <p><b>Rembourrée</b> avec différentes <b>graines</b> comme du riz ou du blé, elle diffuse une chaleur douce et une odeur agréable.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La bouillotte ceinture</b></p>
-                                <p>Elle tient chaud à ton ventre et tes reins ou tes cuisses. Tu peux y mettre de l’eau chaude (ou des glaçons si tu préfères) et te ballader librement dans ta maison.</p>
+                                <p>Elle tient <b>chaud</b> à ton ventre et tes <b>reins</b> ou tes <b>cuisses</b>. Tu peux y mettre de l’eau chaude (ou des glaçons si tu préfères) et te ballader librement dans ta maison.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-caption d-none d-md-block">
                                 <p><b>La swag</b></p>
-                                <p>Proche cousine de la bouillotte à eau, la bouillotte swag est souvent bien habillée. Tu peux rajouter une housse en pilou-pilou ou une housse rigolote sur ta bouillotte habituelle pour des règles plus stylées.</p>
+                                <p>Proche cousine de la bouillotte à eau, la bouillotte swag est souvent <b>bien habillée</b>. Tu peux rajouter une <b>housse</b> en pilou-pilou ou une housse rigolote sur ta bouillotte habituelle pour des règles plus stylées.</p>
                             </div>
                         </div>
                     </div>
@@ -109,18 +109,18 @@ parentLink: /apaiser-les-douleurs/
     <div class="container">
         <div class="mb-72">
             <h2 class="mb-56"><span>La médecine douce</span></h2>
-            <p>Bien entendu, ce type de médecine alternative est plus ou moins efficace selon les personnes. Chaque corps est différent.</p>
+            <p>Bien entendu, ce type de <b>médecine alternative</b> est plus ou moins efficace selon les personnes. <b>Chaque corps est différent</b>.</p>
         </div>
         <div class="row">
             <div class="col-lg-4 d-flex flex-column align-items-center">
                 <p><b>Kiné & Osthéo</b></p>
                 <img src="/assets/images/soutien_homepage.png" class="d-block w-100 mb-4" alt="">
-                <p>Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour soulager les douleurs.</p>
+                <p>Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour <b>soulager les douleurs</b>.</p>
             </div>
             <div class="col-lg-4  d-flex flex-column align-items-center">
                 <p><b>Le Yoga</b></p>
                 <img src="/assets/images/soutien_homepage.png" class="d-block w-100 mb-4" alt="">
-                <p>Super moyens pour se détendre, gérer son souffle et appaiser sa douleur. La pratique régulière peut permettre de reprendre le contrôle de son corps.</p>
+                <p>Super moyen pour <b>se détendre, gérer son souffle et appaiser sa douleur</b>. La pratique régulière peut permettre de reprendre le contrôle de son corps.</p>
             </div>
             <div class="col-lg-4  d-flex flex-column align-items-center">
                 <p><b>...et plein d’autres</b></p>
@@ -140,8 +140,8 @@ parentLink: /apaiser-les-douleurs/
             </div>
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Libérer la parole</h3>
-                <p class="card-text">En plus des petites astuces citées plus haut, parler de tes douleurs et de ton endo peut s’avérer être un vrai soulagement pour cette épreuve quotidienne.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">J’ouvre la parole</a>
+                <p class="card-text">En plus des petites astuces citées plus haut, <b>parler de tes douleurs</b> et de ton endo peut s’avérer être un <b>vrai soulagement</b> pour cette épreuve quotidienne.</p>
+                <a href="/comment-j-en-parle/" class="btn btn-primary">J’ouvre le dialogue</a>
             </div>
         </div>
     </div>
