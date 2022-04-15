@@ -69,7 +69,7 @@ permalink: /devenir-un-allie/
             <h3>Nos sources sympas</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
                 <li><a href="https://www.endofrance.org/">EndoFrance</a></li>
-                <li><a href="https://www.figma.com/exit?url=https%3A%2F%2Fsante.journaldesfemmes.fr%2Ffiches-maladies%2F2702395-premiers-symptomes-endometriose-comment-savoir-regles-saignement-douleur%2F">Journal des Femmes - Rubriques Santé</a></li>
+                <li><a href="https://sante.journaldesfemmes.fr/">Journal des Femmes - Rubriques Santé</a></li>
                 <li><a href="https://sante.lefigaro.fr/sante/maladie/endometriose/est-ce-que-cest-grave#:~:text=L'endom%C3%A9triose%20est%20une%20maladie,infertilit%C3%A9%20chez%20la%20femme%20jeune">Le Figaro - Rubrique Santé</a></li>
                 <li><a href="https://www.santemagazine.fr/sante/maladies/maladies-gynecologiques/endometriose/10-choses-a-savoir-sur-lendometriose-172548">Santé Magazine</a></li>
                 <li><a href="https://www.info-endometriose.fr/lendometriose-cest-quoi/quest-ce-que-lendometriose/">Info-Endométriose</a></li>

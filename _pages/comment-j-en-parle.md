@@ -6,7 +6,7 @@ parentTitle: Libérer la parole
 parentLink: /liberer-la-parole/
 ---
 
-{% include afinir.html %}
+
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -27,7 +27,7 @@ parentLink: /liberer-la-parole/
             <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
             <div class="col-lg-5">
                 <h3>Parler ça soulage</h3>
-                <p>En parler c’est d’abord pour que <b>les autres comprennent ta souffrance</b>.  Cela peut te soulager et t’aider à <b>ne pas te sentir seule </b>face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
+                <p>En parler c’est d’abord pour que <b>les autres comprennent ta souffrance</b>. Cela peut te soulager et t’aider à <b>ne pas te sentir seule </b>face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
             </div>
         </div>
         <div class="row d-flex justify-content-lg-between ">
@@ -53,7 +53,7 @@ parentLink: /liberer-la-parole/
         <h2 class="mb-56"><span>Les comptes Instagram qui te conseillent</span></h2>
         <div class="row mb-56">
             <div class="">
-                <h3>Quels comptes suivrent ?</h3>
+                <h3>Quels comptes suivre ?</h3>
                 <p>Voici la liste des <b>comptes super cools</b> ! Ils te donnent des <b>informations</b>, des conseils et te permettent de suivre l’actualité de la maladie simplement. Tu peux montrer ces comptes à ton entourage pour les<b> aider à comprendre</b> ce qu’il t’arrive</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ parentLink: /liberer-la-parole/
 
 <section id="sect3" class="section">
     <div class="container">
-        <h2><span>En parler aux personnes qui m’entoure</span></h2>
+        <h2><span>En parler aux personnes qui m’entourent</span></h2>
         {% include accordion.html %}
     </div>
 </section>
@@ -85,9 +85,9 @@ parentLink: /liberer-la-parole/
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
                 <li><a href="https://www.endofrance.org/">EndoFrance</a></li>
                 <li><a href="https://sante.journaldesfemmes.fr/">Journal des Femmes - Rubriques Santé</a></li>
-                <li><a href="https://recherche.lefigaro.fr/recherche/endom%C3%A9triose/?publication=sante.lefigaro.fr">Le Figaro - Rubrique Santé</a></li>
-                <li><a href="https://www.santemagazine.fr/">Santé Magazine</a></li>
-                <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
+                <li><a href="https://sante.lefigaro.fr/sante/maladie/endometriose/est-ce-que-cest-grave#:~:text=L'endom%C3%A9triose%20est%20une%20maladie,infertilit%C3%A9%20chez%20la%20femme%20jeune">Le Figaro - Rubrique Santé</a></li>
+                <li><a href="https://www.santemagazine.fr/sante/maladies/maladies-gynecologiques/endometriose/10-choses-a-savoir-sur-lendometriose-172548">Santé Magazine</a></li>
+                <li><a href="https://www.info-endometriose.fr/lendometriose-cest-quoi/quest-ce-que-lendometriose/">Info-Endométriose</a></li>
             </ul>
             <div class="d-flex">
                 <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1">

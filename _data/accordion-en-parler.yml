@@ -2,7 +2,7 @@
 - name: Conseils pour en parler à ta famille
   n: One
   nbr_content: 6
-  content1: "- <b>parle à coeur ouvert</b>, n’ai pas honte, t’inquiète, ils seront là pour toi "
+  content1: "- <b>parle à coeur ouvert</b>, n’aie pas honte, t’inquiète, ils seront là pour toi "
   content2: "- explique tes douleurs et tes frustrations (ça fait du bien ;))"
   content3: "- dis quand tu souffres, c’est le meilleur moment pour qu’ils t’aident et te comprennent"
   content4: "- tu peux aussi leur demander de <b>prévenir ton établissement scolaire</b>, afin de mettre en place des solutions adaptées "
@@ -26,6 +26,6 @@
 - name: Conseil pour en parler à tes profs
   n: Four
   nbr_content: 3
-  content1: "- prends un petit moment pour leur expliquer que tu souffre réellement"
+  content1: "- prends un petit moment pour leur expliquer que tu souffres réellement"
   content2: "- si tu dois t'absenter, demande leur de <b>mettre en place des solutions</b> pour continuer à suivre les cours"
-  content3: "- si tu as vraiment mal, n’hésite pas à insister, même en plein cours"
+  content3: "- si tu as vraiment mal, n’hésite pas à le dire à ton prof, même en plein cours"
