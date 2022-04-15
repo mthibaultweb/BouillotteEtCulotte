@@ -9,7 +9,7 @@ permalink: /liberer-la-parole/
         <div class="">
             <h2 class="mb-56"><span>Communique avec ton entourage</span></h2>
             <div class="row d-flex justify-content-between mb-72">
-                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                <div class="col-12 col-lg-6 mb-3 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="">
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
@@ -19,7 +19,7 @@ permalink: /liberer-la-parole/
                 </div>
             </div>
             <div class="row d-flex justify-content-between mb-75">
-                <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
+                <div class="order-1 order-lg-2 col-12 col-lg-6 mb-3 mb-lg-0">
                     <img class="w-100" src="{{ "/assets/images/content/question.jpg" | relative_url }}" alt="" >
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">

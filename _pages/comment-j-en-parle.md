@@ -23,14 +23,14 @@ parentLink: /liberer-la-parole/
     <div class="container">
         <h2><span>S’informer pour mieux en parler</span></h2>
         <div class="row d-flex justify-content-lg-between align-items-center mb-72">
-            <img class="col-lg-6" src="/assets/images/content/parler.jpg">
+            <img class="col-lg-6 mb-3 mb-lg-0" src="/assets/images/content/parler.jpg">
             <div class="col-lg-5">
                 <h3>Parler ça soulage</h3>
                 <p>En parler c’est d’abord pour que <b>les autres comprennent ta souffrance</b>. Cela peut te soulager et t’aider à <b>ne pas te sentir seule </b>face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
             </div>
         </div>
         <div class="row d-flex justify-content-lg-between ">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-5 mb-lg-0">
                 <h3>Se renseigner pour comprendre</h3>
                 <p>Tu peux t’informer à divers endroits : <br>
                 - les <b>médecins</b> comme ton généraliste ou un gynécologue<br>

@@ -1,4 +1,4 @@
-{% if page.url == "/que-m-arrive-t-il/" %}
+{% if page.url == "/comprendre-la-maladie/" %}
 <div class="accordion" id="accordionExample">
     {% for item in site.data.accordion-symp %}
         <div class="accordion-item">
@@ -93,7 +93,7 @@
         </div>
     {% endfor %}
 </div>
-{%else%}
+{%else if page.url == "/comment-j-en-parle/" %}
 <div class="accordion" id="accordionExample">
     {% for item in site.data.accordion-en-parler %}
         <div class="accordion-item">
