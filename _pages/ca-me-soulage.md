@@ -25,7 +25,7 @@ parentLink: /apaiser-mes-douleurs/
     <div class="container">
         <h2><span>Choisir sa protection hygiénique</span></h2>
         <div class="row d-flex justify-content-lg-between mb-72">
-            <img class="col-lg-6" src="/assets/images/content/soutenir.jpg">
+            <img class="col-lg-6" src="/assets/images/content/soulager.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Y’a du choix !</h3>
                 <p>Retiens surtout que ta protection c’est <b>ton choix</b>, donc tu dois prendre ce qui te <b>convient le mieux</b>. Il n’y a pas de moins bien ou de meilleur, choisis ce qui correspond à ton corps. Pour t’accompagner dans ton choix, voici une petite <b>liste non exhaustive de protections hygiéniques</b> :</p>
@@ -113,17 +113,17 @@ parentLink: /apaiser-mes-douleurs/
         <div class="row">
             <div class="col-lg-4 d-flex flex-column align-items-center">
                 <p><b>Kiné & Osthéo</b></p>
-                <img src="/assets/images/soutien_homepage.png" class="d-block w-100 mb-4" alt="">
+                <img src="/assets/images/content/kine.jpg" class="d-block w-100 mb-4" alt="">
                 <p>Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour <b>soulager les douleurs</b>.</p>
             </div>
             <div class="col-lg-4  d-flex flex-column align-items-center">
                 <p><b>Le Yoga</b></p>
-                <img src="/assets/images/soutien_homepage.png" class="d-block w-100 mb-4" alt="">
+                <img src="/assets/images/content/yoga.jpg" class="d-block w-100 mb-4" alt="">
                 <p>Super moyen pour <b>se détendre, gérer son souffle et appaiser sa douleur</b>. La pratique régulière peut permettre de reprendre le contrôle de son corps.</p>
             </div>
             <div class="col-lg-4  d-flex flex-column align-items-center">
                 <p><b>...et plein d’autres</b></p>
-                <img src="/assets/images/soutien_homepage.png" class="d-block w-100 mb-4" alt="">
+                <img src="/assets/images/content/alternative.jpg" class="d-block w-100 mb-4" alt="">
                 <p>Et on ne t’as pas tout dit : il y a aussi la sophrologie, l’acuponcture, la psychothérapie, les cures thermales et même l’hypnose !</p>
             </div>
         </div>
@@ -135,7 +135,7 @@ parentLink: /apaiser-mes-douleurs/
         <h2 class="mb-56"><span>En parler ça peut aider</span></h2>
         <div class="row d-flex justify-content-between mb-72">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
+                <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="">
             </div>
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Libérer la parole</h3>
@@ -155,10 +155,7 @@ parentLink: /apaiser-mes-douleurs/
                 <li><a href="https://www.lmde.fr/prevention/bien-etre/protections-hygieniques">La mutuelle des étudiants</a></li>
                 <li><a href="https://endoyellow.com/">EndoYellow</a></li>
             </ul>
-            <div class="d-flex align-items-center">
-                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="">
-                <p class="my-0">Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
-            </div>
+            {% include remerciements.html %}
         </div>
     </div>
 </section>

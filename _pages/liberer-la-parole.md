@@ -15,7 +15,7 @@ permalink: /liberer-la-parole/
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment j’en parle ?</h3>
                     <p class="card-text"><b>Parler de ses douleurs </b>peut paraître délicat pourtant il est <b>important</b> d'en discuter avec tes proches pour qu’ils puissent te soutenir et t’aider. Ici, on t’aide à aborder le sujet de l’endométriose.</p>
-                    <a href="/que-m-arrive-t-il/" class="btn btn-primary">J’ouvre le dialogue</a>
+                    <a href="/comment-j-en-parle/" class="btn btn-primary">J’ouvre le dialogue</a>
                 </div>
             </div>
             <div class="row d-flex justify-content-between mb-75">
@@ -25,7 +25,7 @@ permalink: /liberer-la-parole/
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment je réponds aux questions ?</h3>
                     <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses proches. Voici quelques conseils pour expliquer ce qu’il t’arrive et <b>répondre aux questions indiscrètes </b>de certains.</p>
-                    <a href="/que-m-arrive-t-il/" class="btn btn-primary">J’explique mes douleurs</a>
+                    <a href="/comment-je-reponds/" class="btn btn-primary">J’explique mes douleurs</a>
                 </div>
             </div>
         </div>

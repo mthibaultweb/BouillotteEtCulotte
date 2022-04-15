@@ -7,24 +7,24 @@ permalink: /apaiser-mes-douleurs/
 <section id="section" class="section">
     <div class="container">
             <h2 class="mb-56"><span>Les médecins et les astuces qui m’aident</span></h2>
-            <div class="row d-flex justify-content-between mb-72">
+            <div class="row d-flex justify-content-between  mb-72">
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/content/quoi.jpg" | relative_url }}" alt="">
+                    <img class="w-100" src="{{ "/assets/images/content/soulager.jpg" | relative_url }}" alt="" >
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
-                    <h3 class="titre_sommaire_accueil">Qui peut me diagnostiquer ?</h3>
-                    <p class="card-text">Poser un diagnostic sur ce qu’il t’arrive est très important. Cela va t’aider à te sentir légitime et tu n’auras plus l’impression d’être seule. Les <b>professionnels de santé</b> sont là pour ça.</p>
-                    <a href="/ils-peuvent-m-aider/" class="btn btn-primary">Je consulte un médecin</a>
+                    <h3 class="titre_sommaire_accueil">Comment  diminuer mes douleurs ?</h3>
+                    <p class="card-text">Ici, tu retrouves des <b>astuces</b> qui t’aide à <b>atténuer tes douleurs au quotidien</b> : médecine douce, protections hygiéniques, bouillottes etc.</p>
+                    <a href="/ca-me-soulage/" class="btn btn-primary">Ça me soulage</a>
                 </div>
             </div>
             <div class="row d-flex justify-content-between">
                 <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="" >
+                    <img class="w-100" src="{{ "/assets/images/content/apprendre.jpg" | relative_url }}" alt="">
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
-                    <h3 class="titre_sommaire_accueil">Comment  diminuer mes douleurs ?</h3>
-                    <p class="card-text">Ici, tu retrouves des <b>astuces</b> qui t’aide à <b>atténuer tes douleurs au quotidien</b> : médecine douce, protections hygiéniques, bouillottes etc.</p>
-                    <a href="/ca-me-soulage/" class="btn btn-primary">Ça me soulage</a>
+                    <h3 class="titre_sommaire_accueil">Qui peut me diagnostiquer ?</h3>
+                    <p class="card-text">Poser un diagnostic sur ce qu’il t’arrive est très important. Cela va t’aider à te sentir légitime et tu n’auras plus l’impression d’être seule. Les <b>professionnels de santé</b> sont là pour ça.</p>
+                    <a href="/ils-peuvent-m-aider/" class="btn btn-primary">Je consulte un médecin</a>
                 </div>
             </div>
     </div>
@@ -44,10 +44,7 @@ permalink: /apaiser-mes-douleurs/
                 <li><a href="https://www.santemagazine.fr/sante/maladies/maladies-gynecologiques/endometriose/10-choses-a-savoir-sur-lendometriose-172548">Santé Magazine</a></li>
                 <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
             </ul>
-            <div class="d-flex">
-                <img src="#" alt="photo medecin" class="mr-1">
-                <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
-            </div>
+           {% include remerciements.html %}
         </div>
     </div>
 </section>

@@ -51,7 +51,7 @@ parentLink: /liberer-la-parole/
             <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
                 <img class="w-100" src="{{ "/assets/images/content/quoi.jpg" | relative_url }}" alt="" >
             </div>
-            <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center flex-column ">
+            <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive-t-il ?</h3>
                 <p class="card-text">Connaitre ce qu’il se passe dans son corps quand on est une endogirl est aussi très important pour <b>comprendre ses douleurs</b>. Apprends tout sur ton cycle et ton endo ci-dessous.</p>
                 <a href="/comprendre-la-maladie/" class="btn btn-primary">Comprendre la maladie</a>
