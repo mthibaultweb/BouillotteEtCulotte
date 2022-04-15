@@ -1,12 +1,13 @@
 ---
 title: Ça me soulage
 subtitle: Comment diminuer mes douleurs ?
-layout: default
 permalink: /ca-me-soulage/
-bgimg: commentjenparle_tel.jpg
+bgimg:
 parentTitle: Apaiser mes douleurs
 parentLink: /apaiser-les-douleurs/
 ---
+
+{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -24,7 +25,7 @@ parentLink: /apaiser-les-douleurs/
 <section id="sect1" class="section">
     <div class="container">
         <h2><span>Choisir sa protection hygiénique</span></h2>
-        <div class="row d-flex justify-content-lg-between">
+        <div class="row d-flex justify-content-lg-between mb-72">
             <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Y’a du choix !</h3>
@@ -47,7 +48,7 @@ parentLink: /apaiser-les-douleurs/
                 <h3>Attention !</h3>
                 <p>Pas plus de 30 minutes au-delà de 40°C.</p>
             </div>
-            <div class="col-lg-5 d-flex justify-content-center flex-column">
+            <div class="col-lg-5 d-flex justify-content-start flex-column">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

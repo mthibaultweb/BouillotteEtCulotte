@@ -1,17 +1,23 @@
-#footer{
+#footer {
     z-index: 10;
     position: relative;
-    font-weight: 300;
 
     .nav-link {
+        position: relative;
         &::after {
-            background-color: white;
+            position: absolute;
+            content: '';
+            background-color: $white;
             bottom: 0;
             left: 0;
+            width: 2px;
             height: 1px;
+            opacity: 0;
+            transition: .3s;
         }
         &:hover::after {
             width: 100%;
+            opacity: 1;
         }
     }
     .nav-social {
@@ -19,7 +25,7 @@
             padding: 0;
             margin-bottom: 1rem;
             &::after {
-                background-color: white;
+                background-color: $white;
                 bottom: 0;
                 left: 1.5rem;
                 height: 1px;

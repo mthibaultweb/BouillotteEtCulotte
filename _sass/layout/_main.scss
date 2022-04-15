@@ -1,0 +1,28 @@
+body {
+    #main {
+        z-index: 10;
+        position: relative;
+        scroll-behavior: smooth;
+    }
+
+    &:not(.accueil) #main {
+        margin-top: -1.5rem;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &.devenir-un-allie #main {
+        h3, a{
+            color: $secondary;
+        }
+        h2 span{
+            background-image: linear-gradient(to right, $secondary40 0%, $secondary40 100%) ;
+        }
+        li span{
+            color: $secondary;
+            font-weight: 800;
+        }
+        .btn{
+            color: $dark;
+        }
+    } 
+}

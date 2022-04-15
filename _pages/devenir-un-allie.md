@@ -1,10 +1,10 @@
 ---
 title: Devenir un allié
 subtitle: Comment soutenir ?
-layout: default
 permalink: /devenir-un-allie/
 ---
 
+{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -41,15 +41,15 @@ permalink: /devenir-un-allie/
     <div class="container">
         <h2 class="mb-56"><span>Comprendre pour mieux soutenir</span></h2>
         <div class="row d-flex justify-content-between mb-72">
-            <div class=" col-12 col-lg-5 d-flex justify-content-center flex-column ">
+            <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3>Le kit de survie</h3>
                 <p class="card-text">Bouillotte & Culotte a preparé un kit de survie très complet pour soulager l’endométriose au quotidien. Une boîte à outils online parfaite pour apporter du soutien à votre endogirl préférée.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Apaiser mes douleurs</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
-            <div class=" col-12 col-lg-5 d-flex justify-content-center flex-column ">
+            <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3>Les sources d’informations</h3>
                 <p class="card-text">Si tu veux en faire plus et que tu souhaites t’impliquer davantage tu peux te renseigner auprès des associations, devenir bénévole, faire des dons, te renseigner sur l’endométriose, être présent et soutenir la cause.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">S’informer</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">S’informer</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between">
