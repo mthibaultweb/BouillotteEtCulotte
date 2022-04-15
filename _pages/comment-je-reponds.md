@@ -27,7 +27,7 @@ parentLink: /liberer-la-parole/
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Comment éviter d’être gênée ?</h3>
                 <p>Que ce soit tes parents, tes frères et sœurs, tes profs ou tes médecins, tout le monde ne réagira pas pareil.
-                Pour toi, qui t’es retrouvée dans cette situation de malaise... tu sais, quand on vient de te faire une remarque pas très agréable, et que tu ne sais juste plus quoi répondre... Nous avons concocté pour toi le guide ultime (sans prétention) !</p>
+                Pour toi, qui t’es retrouvée dans cette situation de malaise... tu sais, quand on vient de te faire une remarque pas très agréable, et que tu ne sais juste plus quoi répondre... <b>Nous avons concocté pour toi le guide ultime (sans prétention) !</b></p>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@ parentLink: /liberer-la-parole/
         <div class="row d-flex justify-content-lg-between">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Comment faire face aux questions ?</h3>
-                <p>Ça arrive de paniquer ou de perdre ses mots. Ici, on t’aide à savoir comment réagir dans ce genre de moments, ou au moins te donner des pistes qui t’aideront à te sortir sans encombre de ces situations délicates. </p>
+                <p>Ça arrive de paniquer ou de perdre ses mots. Ici, on t’aide à savoir <b>comment réagir</b> dans ce genre de moments, ou au moins te donner des pistes qui t’aideront à te <b>sortir sans encombres</b> de ces situations délicates. </p>
             </div>
             <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/discussion_homepage.png">
         </div>
@@ -52,12 +52,12 @@ parentLink: /liberer-la-parole/
             <img class="col-lg-6" src="/assets/images/interrogation_homepage.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Attention, c'est important !</h3>
-                <p>Cette liste n’est pas exhaustive et ne représente pas toute la complexité du sujet. Vous pouvez vous en inspirer, mais elle ne représente pas une solution absolue.</p>
+                <p>Cette liste <b>n’est pas exhaustive</b> et ne représente pas toute la complexité du sujet. Vous pouvez vous en inspirer, mais elle </b>ne représente pas une solution absolue</b>.</p>
             </div>
         </div>
     </div> 
 </section>
-<section class="section">
+<section id="sect3" class="section">
     {% include testimonials-endogirls.html %}
 </section>
 <section class="sources section">

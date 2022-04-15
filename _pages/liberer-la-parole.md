@@ -15,7 +15,7 @@ permalink: /liberer-la-parole/
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment j’en parle ?</h3>
-                    <p class="card-text">Parler de ses douleurs peut paraître délicat pourtant il est important d'en discuter avec tes proches pour qu’ils puissent te soutenir et t’aider. Ici, on t’aide à aborder le sujet de l’endométriose.</p>
+                    <p class="card-text"><b>Parler de ses douleurs </b>peut paraître délicat pourtant il est <b>important</b> d'en discuter avec tes proches pour qu’ils puissent te soutenir et t’aider. Ici, on t’aide à aborder le sujet de l’endométriose.</p>
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary">J’ouvre le dialogue</a>
                 </div>
             </div>
@@ -25,7 +25,7 @@ permalink: /liberer-la-parole/
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment je réponds aux questions ?</h3>
-                    <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses proches. Voici quelques conseils pour expliquer ce qu’il t’arrive et répondre aux questions indiscrètes de certains.</p>
+                    <p class="card-text">C’est primordial de pouvoir parler de ce qu’on ressent à ses proches. Voici quelques conseils pour expliquer ce qu’il t’arrive et <b>répondre aux questions indiscrètes </b>de certains.</p>
                     <a href="/que-m-arrive-t-il/" class="btn btn-primary">J’explique mes douleurs</a>
                 </div>
             </div>
@@ -42,11 +42,11 @@ permalink: /liberer-la-parole/
         <div class="row">
             <h3>Nos sources sympas</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
-                <li><a href="#">EndoFrance</a></li>
-                <li><a href="#">Journal des Femmes - Rubriques Santé</a></li>
-                <li><a href="#">Le Figaro - Rubrique Santé</a></li>
-                <li><a href="#">Santé Magazine</a></li>
-                <li><a href="#">Info-Endométriose</a></li>
+                <li><a href="https://www.endofrance.org/">EndoFrance</a></li>
+                <li><a href="https://sante.journaldesfemmes.fr/">Journal des Femmes - Rubriques Santé</a></li>
+                <li><a href="https://recherche.lefigaro.fr/recherche/endom%C3%A9triose/?publication=sante.lefigaro.fr">Le Figaro - Rubrique Santé</a></li>
+                <li><a href="https://www.santemagazine.fr/">Santé Magazine</a></li>
+                <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
             </ul>
             <div class="d-flex">
                 <img src="#" alt="photo medecin" class="mr-1">

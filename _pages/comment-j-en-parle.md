@@ -27,21 +27,21 @@ parentLink: /liberer-la-parole/
             <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
             <div class="col-lg-5">
                 <h3>Parler ça soulage</h3>
-                <p>En parler c’est d’abord pour que les autres comprennent ta souffrance.  Cela peut te soulager et t’aider à ne pas te sentir seule face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
+                <p>En parler c’est d’abord pour que <b>les autres comprennent ta souffrance</b>.  Cela peut te soulager et t’aider à <b>ne pas te sentir seule </b>face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
             </div>
         </div>
         <div class="row d-flex justify-content-lg-between ">
             <div class="col-lg-6">
                 <h3>Se renseigner pour comprendre</h3>
                 <p>Tu peux t’informer à divers endroits : <br>
-                - les médecins comme ton généraliste ou un gynécologue<br>
-                - les groupes de parole<br>
-                - les associations<br>
+                - les <b>médecins</b> comme ton généraliste ou un gynécologue<br>
+                - les <b>groupes de parole</b><br>
+                - les <b>associations</b><br>
                 (EndoFrance ou Info-Endométriose)</p>
             </div>
             <div class="col-lg-5">
                 <h3>En apprendre plus sur Internet</h3>
-                <p>Les réseaux sociaux sont aussi un super moyen de communiquer avec des filles comme toi. 
+                <p>Les <b>réseaux sociaux </b>sont aussi un super moyen de communiquer avec des <b>filles comme toi</b>. 
                 Tu peux y trouver de l’aide, des conseils, des recommandations et des témoignages qui pourraient s’avérer utiles.</p>
             </div>
         </div>
@@ -54,7 +54,7 @@ parentLink: /liberer-la-parole/
         <div class="row mb-56">
             <div class="">
                 <h3>Quels comptes suivrent ?</h3>
-                <p>Voici la liste des comptes super cools ! Ils te donnent des informations, des conseils et te permettent de suivre l’actualité de la maladie simplement. Tu peux montrer ces comptes à ton entourage pour les aider à comprendre ce qu’il t’arrive</p>
+                <p>Voici la liste des <b>comptes super cools</b> ! Ils te donnent des <b>informations</b>, des conseils et te permettent de suivre l’actualité de la maladie simplement. Tu peux montrer ces comptes à ton entourage pour les<b> aider à comprendre</b> ce qu’il t’arrive</p>
             </div>
         </div>
         <div class="row">
@@ -83,11 +83,11 @@ parentLink: /liberer-la-parole/
         <div class="row">
             <h3>Nos sources sympas</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
-                <li><a href="#">EndoFrance</a></li>
-                <li><a href="#">Journal des Femmes - Rubriques Santé</a></li>
-                <li><a href="#">Le Figaro - Rubrique Santé</a></li>
-                <li><a href="#">Santé Magazine</a></li>
-                <li><a href="#">Info-Endométriose</a></li>
+                <li><a href="https://www.endofrance.org/">EndoFrance</a></li>
+                <li><a href="https://sante.journaldesfemmes.fr/">Journal des Femmes - Rubriques Santé</a></li>
+                <li><a href="https://recherche.lefigaro.fr/recherche/endom%C3%A9triose/?publication=sante.lefigaro.fr">Le Figaro - Rubrique Santé</a></li>
+                <li><a href="https://www.santemagazine.fr/">Santé Magazine</a></li>
+                <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
             </ul>
             <div class="d-flex">
                 <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1">

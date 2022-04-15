@@ -11,7 +11,7 @@
   status: 'diagnostiquée'
   testimony: "J’ai réalisé que quelque chose n'était pas normal à 19 ans, au début ça allait mais la douleur est devenue de plus en plus intense. C’est là que j’ai commencé à en parler."
 - name: 'Elsa'
-  age: '19 ans'
+  age: '31 ans'
   status: 'diagnostiquée'
   testimony: "J’ai découvert le problème à cause de nodules dans le nombril, il y a deux ans (j’avais 28/29 ans), mais j’en souffre depuis toute petite."
 - name: 'Eva'
@@ -22,3 +22,11 @@
   age: '18 ans'
   status: 'diagnostiquée'
   testimony: "Pendant longtemps on m'a dit que c'était les règles, qu'on avait mal et que c'était normal."
+- name: 'Candice'
+  age: '19 ans'
+  status: 'diagnostiquée'
+  testimony: "Je me suis dirigée vers un organisme spécialisé qui peut aider à réguler sa douleur : ' Point Gyn '. Ils m'ont proposé un suivi par un gynécologue, un ostéopathe et une diététicienne pendant 6 mois. Je travaille sur ma douleur au ventre, mon alimentation et de potentiels examens à faire."
+- name: 'Lucie'
+  age: '18 ans'
+  status: 'diagnostiquée'
+  testimony: "Mon conseil c’est que si les médicaments ne suffisent pas à atténuer ta douleur, il faut en parler et il ne faut pas se sentir faible d’avoir mal malgré les personnes qui diront “mais c’est rien, t’abuses”"
