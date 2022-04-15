@@ -93,7 +93,7 @@
         </div>
     {% endfor %}
 </div>
-{%else%}
+{%else if page.url == "/comment-j-en-parle/" %}
 <div class="accordion" id="accordionExample">
     {% for item in site.data.accordion-en-parler %}
         <div class="accordion-item">

@@ -25,7 +25,7 @@ parentLink: /apaiser-mes-douleurs/
     <div class="container">
         <h2><span>Choisir sa protection hygiénique</span></h2>
         <div class="row d-flex justify-content-lg-between mb-72">
-            <img class="col-lg-6" src="/assets/images/content/soulager.jpg">
+            <img class="col-lg-6 mb-3 mb-lg-0" src="/assets/images/content/soulager.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Y’a du choix !</h3>
                 <p>Retiens surtout que ta protection c’est <b>ton choix</b>, donc tu dois prendre ce qui te <b>convient le mieux</b>. Il n’y a pas de moins bien ou de meilleur, choisis ce qui correspond à ton corps. Pour t’accompagner dans ton choix, voici une petite <b>liste non exhaustive de protections hygiéniques</b> :</p>
@@ -111,12 +111,12 @@ parentLink: /apaiser-mes-douleurs/
             <p>Bien entendu, ce type de <b>médecine alternative</b> est plus ou moins efficace selon les personnes. <b>Chaque corps est différent</b>.</p>
         </div>
         <div class="row">
-            <div class="col-lg-4 d-flex flex-column align-items-center">
+            <div class="col-lg-4 d-flex flex-column align-items-center mb-4 mb-lg-0">
                 <p><b>Kiné & Osthéo</b></p>
                 <img src="/assets/images/content/kine.jpg" class="d-block w-100 mb-4" alt="">
                 <p>Les osthéopates, les kinésithérapeutes et les masseurs sont souvent sollicités pour <b>soulager les douleurs</b>.</p>
             </div>
-            <div class="col-lg-4  d-flex flex-column align-items-center">
+            <div class="col-lg-4  d-flex flex-column align-items-center mb-4 mb-lg-0">
                 <p><b>Le Yoga</b></p>
                 <img src="/assets/images/content/yoga.jpg" class="d-block w-100 mb-4" alt="">
                 <p>Super moyen pour <b>se détendre, gérer son souffle et appaiser sa douleur</b>. La pratique régulière peut permettre de reprendre le contrôle de son corps.</p>

@@ -12,7 +12,7 @@
                     {% for item in site.data.header-menu %} 
                         {% if item.level == 1 %}
                         <li class="nav-item">
-                            <a class="{% if page.url == item.link or page.url == item.sublink-1 or page.url == item.sublink-2 or page.url == item.sublink-3 %}active{% endif %} {% if item.type == 'button' %}btn btn-secondary{% endif %} {% if item.type == 'link' %}nav-link{% endif %}" {% if page.url==item.link %}aria-current="page" {% endif %} href="{{ item.link }}">{{ item.name }}</a>
+                            <a class="{% if page.url == item.link or page.url == item.sublink-1 or page.url == item.sublink-2 or page.url == item.sublink-3 %}active{% endif %} {% if item.type == 'button' %}btn btn-secondary ms-lg-4{% endif %} {% if item.type == 'link' %}nav-link{% endif %}" {% if page.url==item.link %}aria-current="page" {% endif %} href="{{ item.link }}">{{ item.name }}</a>
                         </li>
                         {% endif%}
                         {% if item.level == 2 %}
