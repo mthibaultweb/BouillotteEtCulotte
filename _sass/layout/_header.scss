@@ -66,6 +66,9 @@ body {
         &.scrolled .navbar {
             height: 60px;
         }
+        .navbar-collapse.show {
+            padding-bottom: 1.5rem;
+        }
     }
 }
 

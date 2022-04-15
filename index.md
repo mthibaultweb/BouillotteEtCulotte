@@ -16,7 +16,7 @@ title: Bouillotte & Culotte
                 </a>
             </div>
             <div class="order-1 order-md-2 col-12 col-md-5 col-xl-6">
-                <img src="{{ "/assets/images/douleurs_homepage.jpg" | relative_url }}" alt="" width="100%" />
+                <img src="{{ "/assets/images/banner/jumbotron-accueil.jpg" | relative_url }}" alt="" width="100%" />
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@ title: Bouillotte & Culotte
         <h2 class="mb-56"><span>Ensemble apprenons à comprendre cette maladie</span></h2>
         <div class="row d-flex justify-content-between mb-72">
             <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
+                <img class="w-100" src="{{ "/assets/images/content/quoi.jpg" | relative_url }}" alt="">
             </div>
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Que m’arrive t-il ?</h3>
@@ -37,7 +37,7 @@ title: Bouillotte & Culotte
         </div>
         <div class="row d-flex justify-content-between mb-72">
             <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
+                <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="" >
             </div>
             <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment en parler ?</h3>
@@ -47,7 +47,7 @@ title: Bouillotte & Culotte
         </div>
         <div class="row d-flex justify-content-between">
             <div class="order-1 col-12 col-lg-6 mb-4 mb-lg-0">
-                <img class="w-100" src="{{ "/assets/images/protections_hygieniques_homepage.png" | relative_url }}" alt="" >
+                <img class="w-100" src="{{ "/assets/images/content/soulager.jpg" | relative_url }}" alt="" >
             </div>
             <div class="order-2 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
