@@ -4,6 +4,7 @@ subtitle: Comment soutenir ?
 permalink: /devenir-un-allie/
 ---
 
+{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
