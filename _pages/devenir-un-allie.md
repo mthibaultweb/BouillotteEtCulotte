@@ -4,15 +4,13 @@ subtitle: Comment soutenir ?
 permalink: /devenir-un-allie/
 ---
 
-{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
             <h3>Sommaire</h3>
-            <ul class="d-flex flex-column justify-content-lg-between flex-lg-row mb-0">
+            <ul class="d-flex flex-column justify-content-center mb-0">
                 <li class="list-group-item mb-3 mb-lg-0"><a href="#sect1">Des petites attentions au quotidien</a></li>
                 <li class="list-group-item mb-3 mb-lg-0"><a href="#sect2">Comprendre pour mieux soutenirt</a></li>
-                <li class="list-group-item"><a href="#sect3">D’autres points de vue </a></li>
             </ul>
         </div>
     </div>
@@ -22,7 +20,7 @@ permalink: /devenir-un-allie/
     <div class="container">
         <h2 class="mb-56"><span>Des petites attentions au quotidien</span></h2>
         <div class="row mb-50 d-flex justify-content-between">
-            <img class="col-lg-5" src="/assets/images/soutien_homepage.png">
+            <img class="col-lg-5" src="/assets/images/content/soutenir.jpg">
             <ul class="col-lg-5 liste_soutien d-flex flex-column justify-content-between">
                 <li class="list-group-item my-3 my-lg-0">Être aux petits soins avec elle</li>
                 <li class="list-group-item mb-3 mb-lg-0">Être ouvert d’esprit</li>
@@ -43,31 +41,26 @@ permalink: /devenir-un-allie/
         <div class="row d-flex justify-content-between mb-72">
             <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3>Le kit de survie</h3>
-                <p class="card-text">Bouillotte & Culotte a preparé un kit de survie très complet pour soulager l’endométriose au quotidien. Une boîte à outils online parfaite pour apporter du soutien à votre endogirl préférée.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
+                <p class="card-text">Bouillotte & Culotte a preparé un <b>kit de survie</b> très complet pour <b>soulager l’endométriose</b> au quotidien. Une boîte à outils online parfaite pour apporter du <b>soutien à votre endogirl</b> préférée.</p>
+                <a href="/apaiser-les-douleurs/" class="btn btn-primary">Apaiser ses douleurs</a>
             </div>
             <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3>Les sources d’informations</h3>
-                <p class="card-text">Si tu veux en faire plus et que tu souhaites t’impliquer davantage tu peux te renseigner auprès des associations, devenir bénévole, faire des dons, te renseigner sur l’endométriose, être présent et soutenir la cause.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary">S’informer</a>
+                <p class="card-text">Si tu veux en faire plus nous t'avons préparé une <b>explication simplifiée de la maladie</b>. En te renseignant sur l’endométriose, tu pourras mieux la comprendre, être présent et <b>la soutenir</b>.</p>
+                <a href="/comprendre-la-maladie/" class="btn btn-primary">Comprendre la maladie</a>
             </div>
         </div>
         <div class="row d-flex justify-content-between">
             <h3 > Les commandements du meilleur allié</h3>
             <ol class="d-flex flex-lg-row flex-column list-group list-group-numbered">
-                <li class="list-group-item my-5 my-lg-0">Accepte le fait qu’elle souffre</li>
-                <li class="list-group-item mb-5 mb-lg-0">Ne prend pas ses paroles à la légère</li>
-                <li class="list-group-item mb-5 mb-lg-0">Ne minimise pas son ressenti</li>
-                <li class="list-group-item mb-5 mb-lg-0">Aide la dans les tâches du quotidien</li>
-                <li class="list-group-item">Renseigne toi sur la maladie</li>
+                <li class="p-3 list-group-item my-5 my-lg-0">Accepte le fait qu’elle souffre</li>
+                <li class="p-3 list-group-item mb-5 mb-lg-0">Ne prend pas ses paroles à la légère</li>
+                <li class="p-3 list-group-item mb-5 mb-lg-0">Ne minimise pas son ressenti</li>
+                <li class="p-3 list-group-item mb-5 mb-lg-0">Aide la dans les tâches du quotidien</li>
+                <li class="p-3 list-group-item">Renseigne toi sur la maladie</li>
             </ol>
         </div>
     </div>
-</section>
-
-<section id="sect3" class="section">
-    
-    {% include testimonials-endogirls.html %}
 </section>
 
 <section class="sources section">
@@ -75,15 +68,15 @@ permalink: /devenir-un-allie/
         <div class="row">
             <h3>Nos sources sympas</h3>
             <ul class="d-flex flex-column justify-content-lg-between flex-lg-row">
-                <li><a href="#">EndoFrance</a></li>
-                <li><a href="#">Journal des Femmes - Rubriques Santé</a></li>
-                <li><a href="#">Le Figaro - Rubrique Santé</a></li>
-                <li><a href="#">Santé Magazine</a></li>
-                <li><a href="#">Info-Endométriose</a></li>
+                <li><a href="https://www.endofrance.org/">EndoFrance</a></li>
+                <li><a href="https://www.figma.com/exit?url=https%3A%2F%2Fsante.journaldesfemmes.fr%2Ffiches-maladies%2F2702395-premiers-symptomes-endometriose-comment-savoir-regles-saignement-douleur%2F">Journal des Femmes - Rubriques Santé</a></li>
+                <li><a href="https://sante.lefigaro.fr/sante/maladie/endometriose/est-ce-que-cest-grave#:~:text=L'endom%C3%A9triose%20est%20une%20maladie,infertilit%C3%A9%20chez%20la%20femme%20jeune">Le Figaro - Rubrique Santé</a></li>
+                <li><a href="https://www.santemagazine.fr/sante/maladies/maladies-gynecologiques/endometriose/10-choses-a-savoir-sur-lendometriose-172548">Santé Magazine</a></li>
+                <li><a href="https://www.info-endometriose.fr/lendometriose-cest-quoi/quest-ce-que-lendometriose/">Info-Endométriose</a></li>
             </ul>
-            <div class="d-flex">
-                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1">
-                <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
+            <div class="d-flex align-items-center">
+                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="">
+                <p class="my-0">Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
             </div>
         </div>
     </div>
