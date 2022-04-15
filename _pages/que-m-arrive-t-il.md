@@ -4,7 +4,6 @@ subtitle: Que m'arrive-t-il ?
 permalink: /comprendre-la-maladie/
 ---
 
-{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -48,7 +47,7 @@ permalink: /comprendre-la-maladie/
     </div>
     <div class="container">
         <div class="row d-flex justify-content-lg-between ">
-            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/interrogation_homepage.jpg">
+            <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/content/attention.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Attention, n’oublie pas !</h3>
                 <p>Cette liste est non-exaustive : <b>d’autres symptômes</b> peuvent exister. 
@@ -91,10 +90,7 @@ permalink: /comprendre-la-maladie/
                 <li><a href="https://www.santemagazine.fr/sante/maladies/maladies-gynecologiques/endometriose/10-choses-a-savoir-sur-lendometriose-172548">Santé Magazine</a></li>
                 <li><a href="https://www.info-endometriose.fr/lendometriose-cest-quoi/quest-ce-que-lendometriose/">Info-Endométriose</a></li>
             </ul>
-            <div class="d-flex align-items-center">
-                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="">
-                <p class="my-0">Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
-            </div>
+            {% include remerciements.html %}
         </div>
     </div>
 </section>
