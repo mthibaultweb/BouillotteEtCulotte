@@ -71,5 +71,17 @@
             fill: $secondary2;
         }
     }
+    @media screen and (min-width: 991px) {
+        img {
+            min-height: 100vh;
+            object-fit: cover;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        padding-top: 80px;
+    }
+    @media screen and (max-width: 991px) {
+        padding-top: 100px;
+    }
 }
 

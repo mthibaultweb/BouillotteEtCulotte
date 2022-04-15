@@ -7,7 +7,6 @@ parentTitle: Apaiser mes douleurs
 parentLink: /apaiser-mes-douleurs/
 ---
 
-{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -26,7 +25,7 @@ parentLink: /apaiser-mes-douleurs/
     <div class="container">
         <h2><span>Choisir sa protection hygiénique</span></h2>
         <div class="row d-flex justify-content-lg-between mb-72">
-            <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
+            <img class="col-lg-6" src="/assets/images/content/soutenir.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Y’a du choix !</h3>
                 <p>Retiens surtout que ta protection c’est <b>ton choix</b>, donc tu dois prendre ce qui te <b>convient le mieux</b>. Il n’y a pas de moins bien ou de meilleur, choisis ce qui correspond à ton corps. Pour t’accompagner dans ton choix, voici une petite <b>liste non exhaustive de protections hygiéniques</b> :</p>

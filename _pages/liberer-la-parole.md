@@ -4,14 +4,13 @@ subtitle: Exprimer tes douleurs peut t’aider
 permalink: /liberer-la-parole/
 ---
 
-{% include afinir.html %}
 <section id="section" class="section">
     <div class="container">
         <div class="">
             <h2 class="mb-56"><span>Communique avec ton entourage</span></h2>
             <div class="row d-flex justify-content-between mb-72">
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
+                    <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="">
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment j’en parle ?</h3>
@@ -21,7 +20,7 @@ permalink: /liberer-la-parole/
             </div>
             <div class="row d-flex justify-content-between mb-75">
                 <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
+                    <img class="w-100" src="{{ "/assets/images/content/question.jpg" | relative_url }}" alt="" >
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment je réponds aux questions ?</h3>
@@ -48,10 +47,7 @@ permalink: /liberer-la-parole/
                 <li><a href="https://www.santemagazine.fr/">Santé Magazine</a></li>
                 <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
             </ul>
-            <div class="d-flex">
-                <img src="#" alt="photo medecin" class="mr-1">
-                <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
-            </div>
+            {% include remerciements.html %}
         </div>
     </div>
 </section>
