@@ -4,13 +4,20 @@
 @import "abstracts/variables";
 @import "vendors/bootstrap";
 
-@import "base";
-@import "header";
-@import "main";
-@import "testimonials";
-@import "footer";
-@import "recos-medecins";
-@import "accordion";
-@import "banner";
+@import "base/typos";
+@import "base/backgrounds";
+@import "base/utilities";
 
 @import "components/carousel";
+@import "components/jumbotron";
+@import "components/testimonials";
+@import "components/accordion";
+@import "components/banner";
+@import "components/cta";
+@import "components/summary";
+@import "components/toplist";
+@import "components/recommendations";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";

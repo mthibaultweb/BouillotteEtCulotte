@@ -1,10 +1,10 @@
 ---
 title: Comprendre la maladie
 subtitle: Que m'arrive-t-il ?
-layout: default
 permalink: /comprendre-la-maladie/
 ---
 
+{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -33,7 +33,7 @@ permalink: /comprendre-la-maladie/
 </section>
 
 <section id="sect2" class="section">
-    <div class="container">
+    <div class="container mb-72">
         <h2><span>Les principaux symptômes</span></h2>
         <div class="row d-flex justify-content-lg-between">
             <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/que-m-arrive-t-il.jpg">
@@ -42,7 +42,11 @@ permalink: /comprendre-la-maladie/
                 <p>L’endométriose est une maladie complexe. Il est important de garder à l’esprit que toutes les femmes n’ont pas toutes les mêmes symptômes. Si tu as le moindre soupçon, n’hésite pas à consulter un médecin spécialiste qui saura répondre à tes questions. Voici une liste non-exhaustive des symptômes que peut provoquer l’endométriose.</p>
             </div>
         </div>
+    </div>
+    <div class="container mb-72">
         {% include accordion.html %}
+    </div>
+    <div class="container">
         <div class="row d-flex justify-content-lg-between ">
             <img class="col-lg-6 d-flex justify-content-center flex-column" src="/assets/images/interrogation_homepage.jpg">
             <div class="col-lg-5 d-flex justify-content-center flex-column">
@@ -58,15 +62,15 @@ permalink: /comprendre-la-maladie/
     <div class="container">
         <h2 class="mb-56"><span>Apaiser les douleurs</span></h2>
         <div class="row d-flex justify-content-lg-between">
-            <div class="col-lg-5 d-flex justify-content-center flex-column ">
+            <div class="col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
                 <p class="card-text">Vivre avec une douleur insoutenable est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques astuces pour calmer ta douleur.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Apaiser mes douleurs</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
-            <div class="col-lg-5 d-flex justify-content-center flex-column ">
+            <div class="col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3 class="titre_sommaire_accueil">Comment me soulager ?</h3>
                 <p class="card-text">Vivre avec une douleur insoutenable est très pesant. On t’a donc préparé une petite liste de spécialistes que tu peux consulter et quelques astuces pour calmer ta douleur.</p>
-                <a href="/que-m-arrive-t-il/" class="btn btn-primary btn-sm">Apaiser mes douleurs</a>
+                <a href="/que-m-arrive-t-il/" class="btn btn-primary">Apaiser mes douleurs</a>
             </div>
         </div>
     </div>

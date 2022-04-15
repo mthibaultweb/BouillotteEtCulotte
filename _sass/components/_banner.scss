@@ -1,0 +1,54 @@
+.banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    z-index: 1;
+    padding: 120px 0 30px;
+
+    h1, p {
+        color: $white;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 1.1;
+        span {
+            background-image: linear-gradient(to right, $primary3 0%, $primary3 100%);
+            background-position: 0 100%;
+            background-size: 100% 3px;
+            -webkit-transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+            transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+            padding: 0.25rem 0;
+            background-repeat: no-repeat;
+            line-height: 1.5;
+        }
+    }
+}
+
+.breadcrumb-item {
+    &.active {
+        font-weight: 700;
+        font-style: italic;
+        opacity: .9;
+    }
+    &:not(.active) {
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+        &:hover, &:focus {
+            opacity: 1;
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+    
+
+

@@ -1,11 +1,12 @@
 ---
 title: J'ouvre le dialogue
 subtitle: Comment j'en parle ?
-layout: default
 permalink: /comment-j-en-parle/
 parentTitle: Libérer la parole
 parentLink: /liberer-la-parole/
 ---
+
+{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -22,15 +23,15 @@ parentLink: /liberer-la-parole/
 <section id="sect1" class="section">
     <div class="container">
         <h2><span>S’informer pour mieux en parler</span></h2>
-        <div class="row d-flex justify-content-lg-between mb-72">
+        <div class="row d-flex justify-content-lg-between align-items-center mb-72">
             <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
-            <div class="col-lg-5 d-flex justify-content-center flex-column">
+            <div class="col-lg-5">
                 <h3>Parler ça soulage</h3>
                 <p>En parler c’est d’abord pour que les autres comprennent ta souffrance.  Cela peut te soulager et t’aider à ne pas te sentir seule face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
             </div>
         </div>
         <div class="row d-flex justify-content-lg-between ">
-            <div class="col-lg-6 d-flex justify-content-center flex-column">
+            <div class="col-lg-6">
                 <h3>Se renseigner pour comprendre</h3>
                 <p>Tu peux t’informer à divers endroits : <br>
                 - les médecins comme ton généraliste ou un gynécologue<br>
@@ -38,7 +39,7 @@ parentLink: /liberer-la-parole/
                 - les associations<br>
                 (EndoFrance ou Info-Endométriose)</p>
             </div>
-            <div class="col-lg-5 d-flex justify-content-center flex-column">
+            <div class="col-lg-5">
                 <h3>En apprendre plus sur Internet</h3>
                 <p>Les réseaux sociaux sont aussi un super moyen de communiquer avec des filles comme toi. 
                 Tu peux y trouver de l’aide, des conseils, des recommandations et des témoignages qui pourraient s’avérer utiles.</p>
