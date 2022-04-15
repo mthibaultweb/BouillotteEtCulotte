@@ -6,7 +6,6 @@ parentTitle: Libérer la parole
 parentLink: /liberer-la-parole/
 ---
 
-{% include afinir.html %}
 <section class="sources section">
     <div class="container">
         <div class="row">
@@ -24,7 +23,7 @@ parentLink: /liberer-la-parole/
     <div class="container">
         <h2><span>S’informer pour mieux en parler</span></h2>
         <div class="row d-flex justify-content-lg-between align-items-center mb-72">
-            <img class="col-lg-6" src="/assets/images/Fausse_image.jpg">
+            <img class="col-lg-6" src="/assets/images/content/soutenir.jpg">
             <div class="col-lg-5">
                 <h3>Parler ça soulage</h3>
                 <p>En parler c’est d’abord pour que <b>les autres comprennent ta souffrance</b>.  Cela peut te soulager et t’aider à <b>ne pas te sentir seule </b>face à ta douleur. Et enfin, en parler c’est pour que les autres puissent, te comprendre, te soutenir et t’aider.</p>
@@ -90,7 +89,7 @@ parentLink: /liberer-la-parole/
                 <li><a href="https://www.info-endometriose.fr/">Info-Endométriose</a></li>
             </ul>
             <div class="d-flex">
-                <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1">
+                <!-- <img src="/assets/images/le-petit-chaperon-rouge.png" alt="photo medecin" class="mr-1"> -->
                 <p>Merci au Docteur NOM DU MEDECIN, gynécologue, d’avoir certifié notre contenu !</p>
             </div>
         </div>

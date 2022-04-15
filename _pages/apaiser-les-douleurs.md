@@ -4,13 +4,12 @@ subtitle: Le kit de survie de l’endométriose
 permalink: /apaiser-mes-douleurs/
 ---
 
-{% include afinir.html %}
 <section id="section" class="section">
     <div class="container">
             <h2 class="mb-56"><span>Les médecins et les astuces qui m’aident</span></h2>
             <div class="row d-flex justify-content-between mb-72">
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/interrogation_homepage.jpg" | relative_url }}" alt="">
+                    <img class="w-100" src="{{ "/assets/images/content/quoi.jpg" | relative_url }}" alt="">
                 </div>
                 <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Qui peut me diagnostiquer ?</h3>
@@ -20,7 +19,7 @@ permalink: /apaiser-mes-douleurs/
             </div>
             <div class="row d-flex justify-content-between">
                 <div class="order-1 order-lg-2 col-12 col-lg-6 mb-4 mb-lg-0">
-                    <img class="w-100" src="{{ "/assets/images/discussion_homepage.png" | relative_url }}" alt="" >
+                    <img class="w-100" src="{{ "/assets/images/content/parler.jpg" | relative_url }}" alt="" >
                 </div>
                 <div class="order-2 order-lg-1 col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                     <h3 class="titre_sommaire_accueil">Comment  diminuer mes douleurs ?</h3>
