@@ -22,11 +22,7 @@ parentLink: /liberer-la-parole/
     <div class="container">
         <h2><span>N'aie pas peur d'en parler</span></h2>
         <div class="row d-flex justify-content-lg-between">
-<<<<<<< HEAD
-            <img class="col-lg-6 mb-lg-3 mb-3" src="/assets/images/protections_hygieniques_homepage.png">
-=======
             <img class="col-lg-6" src="/assets/images/content/gene.jpg">
->>>>>>> e3455fd860446a95b4e1c63718263f5461c1a8ef
             <div class="col-lg-5 d-flex justify-content-center flex-column">
                 <h3>Comment éviter d’être gênée ?</h3>
                 <p>Que ce soit tes parents, tes frères et sœurs, tes profs ou tes médecins, tout le monde ne réagira pas pareil.
