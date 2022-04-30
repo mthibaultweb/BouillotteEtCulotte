@@ -15,9 +15,7 @@ function menu() {
 window.addEventListener('scroll', function() {
     if (window.scrollY > 0) {
         body.classList.add('scrolled');
-        logoSite.setAttribute('src', '/assets/images/logo-reduit.svg');
     } else {
         body.classList.remove('scrolled');
-        logoSite.setAttribute('src', '/assets/images/logo-bouillotteetculotte.svg');
     }
 })
