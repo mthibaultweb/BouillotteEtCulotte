@@ -15,10 +15,70 @@ body {
                 }
             }
         }
+        #logosite {
+            width: 160px;
+            height: 75px;
+            position: relative;
+            transition: all .3s;
+            #logo-b {
+                position: absolute;
+                top: 9px;
+                left: 0;
+                width: 23px;
+                transition: all .3s;
+            }
+            #logo-et {
+                position: absolute;
+                top: 39px;
+                left: 5px;
+                width: 32px;
+                height: 32px;
+                transition: all .3s;
+                z-index: 1;
+            }
+            #logo-c {
+                position: absolute;
+                top: 41px;
+                left: 41px;
+                width: 21px;
+                transition: all .3s;
+            }
+            #logo-complet {
+                position: absolute;
+                top: 0;
+                left: 24px;
+                width: 135px;
+                opacity: 1;
+                transition: all .3s;
+            }
+        }
     }
 
     &.bouillotte-culotte:not(.scrolled) .navbar {
         box-shadow: none!important;
+    }
+    &.scrolled {
+        #logosite {
+            width: 63px;
+            height: 40px;
+            #logo-b {
+                top: 0;
+            }
+            #logo-et {
+                top: 15px;
+                left: 18px;
+                width: 24px;
+                height: 24px;
+            }
+            #logo-c {
+                top: 9px;
+                left: 38px;
+            }
+            #logo-complet {
+                width: 0;
+                opacity: 0;
+            }
+        }
     }
 }
 
