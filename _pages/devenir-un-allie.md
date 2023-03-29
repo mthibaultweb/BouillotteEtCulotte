@@ -42,7 +42,7 @@ permalink: /devenir-un-allie/
             <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column mb-5 mb-lg-0">
                 <h3>Le kit de survie</h3>
                 <p class="card-text">Bouillotte & Culotte a preparé un <b>kit de survie</b> très complet pour <b>soulager l’endométriose</b> au quotidien. Une boîte à outils online parfaite pour apporter du <b>soutien à votre endogirl</b> préférée.</p>
-                <a href="/apaiser-les-douleurs/" class="btn btn-primary">Apaiser ses douleurs</a>
+                <a href="/apaiser-mes-douleurs/" class="btn btn-primary">Apaiser ses douleurs</a>
             </div>
             <div class=" col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
                 <h3>Les sources d’informations</h3>
